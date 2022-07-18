@@ -1,0 +1,1 @@
+exports.signOut = (req, res) => {};

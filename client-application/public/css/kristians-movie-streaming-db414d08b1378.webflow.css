@@ -1,0 +1,8473 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a.w--current {
+  text-decoration: none;
+}
+
+.three-different-tabs {
+  width: 33%;
+  height: 7vh;
+  margin-top: -7vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: hsla(0, 0%, 100%, 0.65);
+  -webkit-transition: all 700ms ease-in-out;
+  transition: all 700ms ease-in-out;
+  font-size: 18px;
+  line-height: 7vh;
+  text-align: center;
+}
+
+.three-different-tabs.w--current {
+  background-color: #fff;
+}
+
+.three-different-tabs.distributors-tab {
+  position: absolute;
+  left: 33%;
+  width: 34%;
+  height: 60px;
+  margin-top: -60px;
+  line-height: 60px;
+}
+
+.three-different-tabs.distributors-tab.w--current {
+  margin-top: -60px;
+}
+
+.three-different-tabs.filmmakers-tab {
+  height: 60px;
+  margin-top: -60px;
+}
+
+.three-different-tabs.filmmakers-tab.w--current {
+  position: absolute;
+  left: 0px;
+  height: 60px;
+  margin-top: -60px;
+}
+
+.three-different-tabs.audiences-tab {
+  position: absolute;
+  left: 67%;
+  height: 60px;
+  margin-top: -60px;
+  line-height: 60px;
+}
+
+.film-grid {
+  grid-column-gap: 16px;
+  grid-row-gap: 35px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.film-entry {
+  text-align: center;
+}
+
+.movie-div-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.div-block-2 {
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 17px;
+  margin-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  background-color: rgba(51, 62, 81, 0);
+  -webkit-transition: color 550ms ease;
+  transition: color 550ms ease;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.button.mobile-sign-in {
+  display: none;
+}
+
+.button.my-account-button {
+  margin-right: 15px;
+  padding-top: 7px;
+  color: #fff;
+  letter-spacing: 1.4px;
+}
+
+.button._1234 {
+  color: #fff;
+  letter-spacing: 1.4px;
+}
+
+.image {
+  margin-top: -3px;
+  margin-right: 14px;
+  -webkit-transition: all 325ms ease;
+  transition: all 325ms ease;
+  cursor: pointer;
+}
+
+.text-block {
+  display: inline-block;
+  margin-left: 10px;
+  color: #333e51;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.brand {
+  padding-top: 22px;
+}
+
+.body {
+  background-color: #f7f7f7;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.tab-pane-tab-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.text-block-2 {
+  margin-top: 1px;
+  margin-bottom: 28px;
+  font-family: 'Brandon med', sans-serif;
+  color: #fff;
+  font-size: 51px;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+
+.text-block-2.white-subtitle {
+  width: 70%;
+  max-width: 510px;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.button-2 {
+  margin-top: 0px;
+  padding: 7px 32px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.25);
+  -webkit-transition: box-shadow 200ms ease-out;
+  transition: box-shadow 200ms ease-out;
+  color: #333e51;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button-2:hover {
+  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.25);
+}
+
+.button-2:active {
+  box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+.button-2.action-button-white {
+  background-color: #fff;
+  color: #333e51;
+}
+
+.button-2.action-button-white.action-button-blue {
+  background-color: #333e51;
+  color: #fff;
+}
+
+.image-2 {
+  margin-top: -8px;
+  -webkit-transition: all 325ms ease;
+  transition: all 325ms ease;
+  font-size: 14px;
+}
+
+.text-block-3 {
+  padding-bottom: 0px;
+  font-family: 'Brandon med', sans-serif;
+  color: #161616;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+}
+
+.text-block-4 {
+  font-family: Brandon, sans-serif;
+  color: #161616;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.film-grid-card-title {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.tab-pane-tab-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.tab-pane-tab-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 67px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px -3px #000;
+  font-family: 'Brandon bld', sans-serif;
+}
+
+.navbar.navbar-home {
+  height: 67px;
+  padding-right: 25px;
+  padding-bottom: 4px;
+  background-color: hsla(0, 0%, 100%, 0);
+  box-shadow: none;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.navbar.account-navbar {
+  background-color: hsla(0, 0%, 100%, 0);
+  box-shadow: none;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.container-2 {
+  padding-right: 30px;
+  padding-left: 0px;
+}
+
+.text-block-5 {
+  font-family: 'Brandon blk', sans-serif;
+  color: #354155;
+  font-size: 18px;
+  line-height: 60px;
+  letter-spacing: 1.4px;
+}
+
+.heading {
+  margin-top: 9px;
+  font-size: 26px;
+  line-height: 47px;
+  letter-spacing: 2px;
+}
+
+.heading.white-heading {
+  color: #fff;
+}
+
+.heading.white-heading.heading-audiences {
+  margin-top: 15px;
+}
+
+.movie-image {
+  width: 200px;
+  height: 300px;
+  -webkit-transition: all 250ms cubic-bezier(.439, .161, .322, .518);
+  transition: all 250ms cubic-bezier(.439, .161, .322, .518);
+}
+
+.movie-image:hover {
+  box-shadow: 1px 1px 7px -4px #000;
+}
+
+.image-3 {
+  width: 100%;
+}
+
+.image-4 {
+  width: 100%;
+}
+
+.image-5 {
+  width: 100%;
+}
+
+.tabs-menu {
+  width: 100%;
+  height: 0px;
+}
+
+.image-6 {
+  width: 46%;
+  max-width: 1200px;
+  padding-top: 3vh;
+}
+
+.image-6.fuel-your-passion-white-text {
+  width: 46%;
+  padding-top: 3vh;
+}
+
+.grid {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  max-height: 650px;
+  padding-top: 0px;
+  padding-right: 8%;
+  padding-left: 8%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-flow: row;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 15px 10px 10px;
+  padding: 6px 15px;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.nav-link.w--current {
+  color: #333e51;
+}
+
+.nav-link.home-nav-link {
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 325ms ease;
+  transition: all 325ms ease;
+  color: #333e51;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.nav-link.account-navbar-link {
+  background-color: rgba(51, 62, 81, 0);
+}
+
+.nav-link.account-navbar-link.transparent-link {
+  color: #fff;
+}
+
+.nav-link-2 {
+  margin-top: 15px;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding: 6px 15px;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.nav-link-2.w--current {
+  color: #333e51;
+}
+
+.nav-link-2.home-nav-link {
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: rgba(51, 62, 81, 0);
+  -webkit-transition: all 325ms ease;
+  transition: all 325ms ease;
+  color: #333e51;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.nav-link-2.account-navbar-link {
+  background-color: rgba(51, 62, 81, 0);
+}
+
+.nav-link-2.account-navbar-link.transparent-link {
+  margin-right: 0px;
+  color: #fff;
+}
+
+.section {
+  padding-top: 65px;
+}
+
+.heading-2 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: 'Brandon med', sans-serif;
+  font-size: 28px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.heading-2.select-your-plan-heading {
+  margin-top: 25px;
+  margin-bottom: 34px;
+}
+
+.heading-2.select-your-plan-heading.final-headline-how-it-works {
+  margin-top: 50px;
+}
+
+.body-2 {
+  background-color: #f7f7f7;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+}
+
+.div-block-5 {
+  display: inline-block;
+  max-width: 950px;
+  margin-bottom: 50px;
+  padding-right: 0vw;
+  padding-left: 0vw;
+}
+
+.grid-2 {
+  margin-top: 10px;
+  grid-column-gap: 2vw;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.hidden-description {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 45px;
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+}
+
+.hidden-description:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 6px -2px #000;
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.hidden-description.hidden-description-how-it-works {
+  cursor: default;
+}
+
+.select-plan-image {
+  position: relative;
+}
+
+.select-plan-image.select-plan-image-how-it-works {
+  cursor: default;
+}
+
+.select-plan-title-text {
+  font-family: Brandon, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.select-plan-title-text.how-it-works-title-text {
+  font-size: 15px;
+  line-height: 21px;
+  cursor: default;
+}
+
+.plan-image {
+  width: 100%;
+  -webkit-transition: all 875ms cubic-bezier(.281, -.061, 0, .81);
+  transition: all 875ms cubic-bezier(.281, -.061, 0, .81);
+}
+
+.plan-image:hover {
+  box-shadow: 0 0 6px 0 #a3a3a3;
+}
+
+.grid-3 {
+  margin-bottom: 15px;
+  padding-bottom: 0px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.homepage-container {
+  display: block;
+  text-align: center;
+}
+
+.grid-4 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 29% auto;
+  grid-template-columns: 29% auto;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 5px -3px #000;
+}
+
+.grid-5 {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 8px;
+  -ms-grid-columns: minmax(0px, -webkit-max-content) 0.95fr;
+  -ms-grid-columns: minmax(0px, max-content) 0.95fr;
+  grid-template-columns: minmax(0px, -webkit-max-content) 0.95fr;
+  grid-template-columns: minmax(0px, max-content) 0.95fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.footer {
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 2px 0 #d3d3d3;
+}
+
+.grid-6 {
+  -ms-grid-columns: 0.75fr 0.75fr 1fr 0.75fr 0.75fr;
+  grid-template-columns: 0.75fr 0.75fr 1fr 0.75fr 0.75fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-7 {
+  margin-top: 25px;
+  padding-bottom: 20px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.footer-col-text-title {
+  margin-bottom: 10px;
+  font-family: 'Brandon bld', sans-serif;
+  color: #000;
+}
+
+.link-block {
+  display: block;
+  color: #181a1d;
+  text-decoration: none;
+}
+
+.link-block-2 {
+  display: block;
+}
+
+.text-block-6 {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-family: 'Brandon re', sans-serif;
+  color: #181818;
+  line-height: 23px;
+  cursor: pointer;
+}
+
+.text-block-6:hover {
+  color: #7c7c7c;
+}
+
+.text-block-7 {
+  font-family: 'Brandon re', sans-serif;
+  color: #181818;
+  text-align: center;
+}
+
+.text-block-8 {
+  display: inline-block;
+  padding-left: 10px;
+  font-family: 'Brandon bld', sans-serif;
+  color: #000;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.body-3 {
+  background-color: #f7f7f7;
+  font-family: 'Brandon med', sans-serif;
+}
+
+.featured-film-card-description {
+  margin-top: 25px;
+  font-family: Brandon, sans-serif;
+  color: rgba(51, 63, 79, 0.88);
+  font-size: 18px;
+  line-height: 134%;
+  text-align: left;
+}
+
+.featured-film-card-description.ivote-description {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  color: rgba(51, 63, 79, 0.88);
+}
+
+.featured-film-card-description.lil-buck-decription {
+  margin-top: 22px;
+}
+
+.featured-film-card-description.planet-carlos-ff-description {
+  margin-top: 22px;
+}
+
+.featured-film-card-description.caroline-ff-description {
+  margin-top: 18px;
+}
+
+.featured-film-card-date {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Brandon, sans-serif;
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.featured-film-card-title {
+  display: block;
+  padding-top: 7px;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 28px;
+  line-height: 31px;
+  text-align: left;
+}
+
+.featured-film-card-title.crappy-birthday-ff-title.cb-title-mobile {
+  display: none;
+}
+
+.image-7 {
+  width: 240px;
+  height: 360px;
+}
+
+.div-block-6 {
+  display: inline-block;
+  width: 80%;
+}
+
+.div-block-7 {
+  text-align: left;
+}
+
+.div-block-8 {
+  padding-left: 10px;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.film-screenshots-small {
+  width: auto;
+  height: 80px;
+}
+
+.image-9 {
+  width: 25%;
+}
+
+.image-10 {
+  width: 25%;
+}
+
+.image-11 {
+  width: 25%;
+}
+
+.div-block-9 {
+  padding: 33px 65px 0% 30px;
+}
+
+.div-block-9.evie-feature-card {
+  padding-top: 27px;
+}
+
+.div-block-9.caroline-ff-card {
+  padding-top: 43px;
+}
+
+.div-block-9.ivote-ff-card {
+  padding-top: 26px;
+}
+
+.featured-film-card-info {
+  margin-top: 15px;
+  color: rgba(51, 63, 79, 0.88);
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.featured-film-card-info.ivote-stats-feature-film {
+  margin-top: 0px;
+  margin-bottom: 23px;
+  font-size: 18px;
+}
+
+.featured-film-card-info.lil-buck-stats-ff {
+  margin-top: 17px;
+}
+
+.featured-film-card-info.planet-carlos-ff-stats {
+  margin-top: 18px;
+}
+
+.slider {
+  background-color: hsla(0, 0%, 86.7%, 0);
+}
+
+.icon {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  border-radius: 0px;
+  background-color: #6e6e6e;
+  -webkit-transition: background-color 600ms ease;
+  transition: background-color 600ms ease;
+  color: #fff;
+}
+
+.icon:hover {
+  background-color: #adadad;
+  color: #fff;
+}
+
+.icon-2 {
+  background-color: #e7e7e7;
+}
+
+.mask {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-2 {
+  height: auto;
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: #1a282f;
+  text-align: center;
+}
+
+.grid-8 {
+  height: auto;
+  grid-column-gap: 90px;
+  -ms-grid-columns: 0.25fr 1fr;
+  grid-template-columns: 0.25fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.slider-2 {
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: hsla(0, 0%, 86.7%, 0);
+}
+
+.heading-3 {
+  font-family: 'Brandon bld', sans-serif;
+}
+
+.heading-4 {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Brandon blk', sans-serif;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 5px;
+}
+
+.heading-4.featured-films-title-subhomepage {
+  display: inline-block;
+  width: 100%;
+  max-width: 850px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.heading-4.recc-films-title {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.heading-4.featured-articles-title-subhomepage {
+  margin-top: 51px;
+}
+
+.heading-5 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding-right: 10%;
+  padding-left: 8%;
+  font-family: 'Brandon blk', sans-serif;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.div-block-10 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.slide-nav {
+  top: 110%;
+  display: none;
+}
+
+.right-arrow {
+  left: auto;
+}
+
+.div-block-11 {
+  width: 100%;
+  text-align: center;
+}
+
+.image-12 {
+  width: 16px;
+  height: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.navbar-username {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 5px;
+  padding-top: 5px;
+  color: #333e51;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar-username.account-username {
+  position: relative;
+  top: -8px;
+  margin-left: 9px;
+  padding-top: 0px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+
+.image-13 {
+  margin-top: -4px;
+  margin-left: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.featured-film-card-images-wrapper {
+  margin-top: 25px;
+}
+
+.featured-film-card-images-wrapper.ivote-card-images-wrapper {
+  margin-top: 16px;
+}
+
+.slide-template {
+  position: relative;
+  text-align: left;
+}
+
+.slide-2 {
+  width: auto;
+}
+
+.slide-3 {
+  width: auto;
+}
+
+.code-for-film-grid {
+  display: none;
+  height: 100px;
+}
+
+.variety-article-element {
+  position: relative;
+  left: -70px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.58);
+  cursor: pointer;
+}
+
+.grid-9 {
+  display: -ms-grid;
+  display: grid;
+  width: 460px;
+  height: 160px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: minmax(160px, 160px) 1fr;
+  grid-template-columns: minmax(160px, 160px) 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.div-block-13 {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 5px;
+  background-color: #6e6e6e;
+  box-shadow: 1px 0 4px -1px #666;
+}
+
+.div-block-14 {
+  margin-top: auto;
+  text-align: center;
+}
+
+.featured-article-description {
+  overflow: auto;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: 'Hoefler Text', sans-serif;
+  color: #1d1d1d;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.featured-article-description.mulan-description {
+  font-size: 11px;
+  line-height: 17px;
+}
+
+.div-block-15 {
+  padding-right: 30px;
+  padding-left: 15px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.featured-article-title {
+  width: 100%;
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.slide-4 {
+  width: 800px;
+  height: auto;
+}
+
+.mask-2 {
+  width: 800px;
+  height: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.slide-nav-2 {
+  top: 249.219px;
+  display: none;
+}
+
+.image-14 {
+  height: 160px;
+}
+
+.featured-articles-title-wrapper {
+  padding-right: 8%;
+  padding-left: 8%;
+  text-align: center;
+}
+
+.div-block-16 {
+  height: 100%;
+}
+
+.plan-card-div {
+  -webkit-transition: all 550ms linear;
+  transition: all 550ms linear;
+  cursor: pointer;
+}
+
+.plan-card-div.plan-card-div-how-it-works {
+  cursor: default;
+}
+
+.movie-description {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: #a1bbd3;
+  opacity: 0;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  cursor: default;
+}
+
+.movie-description:hover {
+  opacity: 1;
+}
+
+.movie-description.movie-description-idea {
+  background-color: #fff;
+}
+
+.movie-description.the-god-chair-description {
+  padding-top: 16px;
+  background-color: #fff;
+}
+
+.movie-description.the-god-chair-description:hover {
+  opacity: 1;
+}
+
+.movie-description.ivote-description {
+  display: block;
+  padding-top: 23px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: #010101;
+}
+
+.movie-description.ivote-description:hover {
+  opacity: 1;
+}
+
+.movie-description.evie-description {
+  padding-top: 24px;
+  background-color: #655560;
+}
+
+.movie-description.out-with-a-bang-description {
+  padding-top: 21px;
+  background-color: #010101;
+}
+
+.movie-description.lost-and-found-description {
+  padding-top: 50px;
+  background-color: #000;
+}
+
+.movie-description.cb-description {
+  padding-top: 16px;
+  background-color: #000;
+}
+
+.movie-description.real-swan-description {
+  padding-top: 13px;
+  background-color: #d45840;
+}
+
+.movie-description.the-school-bag-description {
+  padding-top: 35px;
+  background-color: #c29053;
+}
+
+.movie-description.tremors-description {
+  padding-top: 20px;
+  background-color: #191010;
+}
+
+.movie-description.magic-bullet-description {
+  padding-top: 5px;
+  background-color: #040404;
+}
+
+.movie-description.staff-only-description {
+  padding-top: 15px;
+  background-color: #d5d5d3;
+}
+
+.movie-description.the-judgment-description {
+  padding-top: 25px;
+  background-color: #002e48;
+}
+
+.movie-description.epiphany-description {
+  padding-top: 10px;
+  background-color: #69523a;
+}
+
+.movie-description.dis-ek-anna-description {
+  padding-top: 10px;
+  background-color: #000;
+}
+
+.movie-description.la-llorena-description {
+  padding-top: 10px;
+  background-color: #e7e4de;
+}
+
+.movie-description.papi-chulo-description {
+  padding-top: 40px;
+  background-color: #bcdeea;
+}
+
+.div-block-18 {
+  display: block;
+}
+
+.grid-10 {
+  grid-column-gap: 5px;
+  -ms-grid-columns: minmax(78%, 78%) 18%;
+  grid-template-columns: minmax(78%, 78%) 18%;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.div-block-19 {
+  padding-top: 10px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.div-block-19.owab-title-wrapper {
+  padding-top: 34px;
+}
+
+.div-block-19.tremors-title-wrapper {
+  padding-top: 19px;
+}
+
+.div-block-19.mb-title-wrapper {
+  padding-top: 23px;
+}
+
+.div-block-19.lbrs-title-wrapper {
+  padding-top: 24px;
+}
+
+.div-block-19.so-title-wrapper {
+  padding-top: 15px;
+}
+
+.div-block-19.ep-title-wrapper {
+  padding-top: 19px;
+}
+
+.div-block-19.ll-title-wrapper {
+  padding-top: 15px;
+}
+
+.div-block-19.dea-title-wrapper {
+  padding-top: 23px;
+}
+
+.movie-description-grid-year {
+  font-family: Brandon, sans-serif;
+  color: #0a4773;
+  font-size: 17px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.movie-description-grid-year.wtf-year {
+  color: #fff;
+}
+
+.movie-description-grid-year.tgc-year {
+  color: #929599;
+}
+
+.movie-description-grid-year.owab-desc {
+  color: #a24033;
+}
+
+.movie-description-grid-year.laf-year {
+  color: #eea701;
+}
+
+.movie-description-grid-year.cb-year {
+  color: #fff;
+}
+
+.movie-description-grid-year.lbrs-year {
+  color: #fff;
+}
+
+.movie-description-grid-year.sb-year {
+  color: #fff;
+}
+
+.movie-description-grid-year.tremors-year {
+  color: #fff;
+}
+
+.movie-description-grid-year.mb-year {
+  color: #eae8db;
+}
+
+.movie-description-grid-year.staff-only-year {
+  color: #9d1d1e;
+}
+
+.movie-description-grid-year.tj-year {
+  color: #a0b5c6;
+}
+
+.movie-description-grid-year.ep-year {
+  color: #fff;
+}
+
+.movie-description-grid-year.dea-year {
+  color: #cfcfcf;
+}
+
+.movie-description-grid-year.ll-year {
+  color: #000;
+}
+
+.movie-description-grid-year.evie-year {
+  color: #eaddbb;
+}
+
+.movie-description-grid-title {
+  overflow: visible;
+  font-family: 'Brandon med', sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.movie-description-grid-title.we-the-children-title {
+  font-family: 'Brandon bld', sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 19px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.movie-description-grid-title.laf-title {
+  color: #eea701;
+}
+
+.movie-description-grid-title.mb-title {
+  color: #eae8db;
+}
+
+.movie-description-grid-title.so-title {
+  color: #9d1d1e;
+}
+
+.movie-description-grid-title.tj-title {
+  color: #a0b5c6;
+}
+
+.movie-description-grid-title.dea-title {
+  color: #cfcfcf;
+}
+
+.movie-description-grid-title.ll-title {
+  color: #000;
+}
+
+.movie-description-grid-title.pac-title {
+  color: #0a4773;
+}
+
+.movie-description-grid-title.tgc-title {
+  color: #929599;
+}
+
+.movie-description-grid-title.owab-title {
+  color: #a24033;
+}
+
+.movie-description-grid-title.evie-title {
+  color: #eaddbb;
+}
+
+.movie-description-grid-title.cb-title {
+  color: #bd2be6;
+}
+
+.div-block-20 {
+  color: #fff;
+  letter-spacing: 1.5px;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+}
+
+.movie-description-grid-description {
+  margin-bottom: 20px;
+  font-family: Brandon, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.movie-description-grid-description.wth-desc {
+  margin-bottom: 14px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.movie-description-grid-description.tgc-dsc {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  color: #929599;
+  font-size: 16px;
+}
+
+.movie-description-grid-description.laf-dsc {
+  color: #eea701;
+}
+
+.movie-description-grid-description.cb-dsc {
+  font-size: 15px;
+}
+
+.movie-description-grid-description.mb-dsc {
+  color: #eae8db;
+}
+
+.movie-description-grid-description.so-dcs {
+  color: #9d1d1e;
+}
+
+.movie-description-grid-description.tj-dsc {
+  color: #a0b5c6;
+}
+
+.movie-description-grid-description.dea-dsc {
+  color: #cfcfcf;
+}
+
+.movie-description-grid-description.ll-dsc {
+  color: #000;
+}
+
+.movie-description-grid-description.pac-dsc {
+  color: #0a4773;
+}
+
+.movie-description-grid-description.owab-desc {
+  margin-top: 10px;
+  font-family: 'Brandon re', sans-serif;
+  color: #a24033;
+}
+
+.movie-description-grid-description.evie-desc {
+  margin-bottom: 11px;
+  color: #eaddbb;
+}
+
+.movie-description-grid-stats {
+  font-family: 'Brandon re', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.movie-description-grid-stats.we-the-children-time {
+  font-family: 'Brandon re', sans-serif;
+  color: #17aa81;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.movie-description-grid-stats.tgc-stats {
+  color: #ba8d6c;
+}
+
+.movie-description-grid-stats.owab-stats {
+  color: #e5e5e5;
+}
+
+.movie-description-grid-stats.evie-stats {
+  color: #48171a;
+  font-size: 15px;
+}
+
+.movie-description-grid-stats.laf-stats {
+  color: #48a4f7;
+}
+
+.movie-description-grid-stats.cb-stats {
+  color: #bd2be6;
+}
+
+.movie-description-grid-stats.lbrs-stats {
+  color: #323639;
+}
+
+.movie-description-grid-stats.tremors-stats {
+  color: #d8b1a2;
+}
+
+.movie-description-grid-stats.sb-stats {
+  color: #6d0407;
+}
+
+.movie-description-grid-stats.mb-stats {
+  color: #8f394b;
+}
+
+.movie-description-grid-stats.so-stats {
+  color: #535771;
+}
+
+.movie-description-grid-stats.ep-stats {
+  color: #000;
+}
+
+.movie-description-grid-stats.dea-stats {
+  color: #6797aa;
+}
+
+.movie-description-grid-stats.ll-stats {
+  color: #8d624f;
+}
+
+.movie-description-grid-stats.pac-stats {
+  color: #0b1316;
+}
+
+.div-block-21 {
+  padding-bottom: 0px;
+}
+
+.play-button {
+  margin-top: 0px;
+  margin-left: -7px;
+  border-radius: 100%;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  box-shadow: 4px 4px 20px -15px #000;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.play-button:active {
+  box-shadow: 3px 3px 8px -15px #000;
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.play-button.dea-play-button {
+  margin-left: -55px;
+}
+
+.play-button.ll-play-button {
+  margin-left: -35px;
+}
+
+.play-button.mb-play-button {
+  margin-left: -55px;
+}
+
+.play-button.tremors-play-button {
+  margin-left: -35px;
+}
+
+.play-button.sg-play-button {
+  margin-left: 0px;
+}
+
+.play-button.lbrs-play-button {
+  margin-left: -15px;
+}
+
+.play-button.prego-play-button {
+  margin-left: -19px;
+}
+
+.play-button.pchy-play-button {
+  margin-left: -25px;
+}
+
+.play-button.wtc-play-button {
+  margin-bottom: -12px;
+  margin-left: -25px;
+}
+
+.play-button.tgc-play-button {
+  margin-left: -20px;
+}
+
+.play-button.pc-play-button {
+  margin-left: -47px;
+}
+
+.script-for-popup-navbar {
+  display: none;
+}
+
+.featured-films-title-homepage {
+  display: inline-block;
+  width: 100%;
+  max-width: 850px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  font-family: 'Brandon blk', sans-serif;
+  text-align: left;
+  letter-spacing: 1.4px;
+}
+
+.div-block-22 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.play-button-wrapper-div {
+  width: 46px;
+  height: 46px;
+  padding-top: 11px;
+  border-radius: 100%;
+  background-color: #fff;
+  background-image: linear-gradient(145deg, #31384e, #131b34);
+  box-shadow: 0 1px 6px 0 #919191;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.play-button-wrapper-div:hover {
+  box-shadow: 1px 1px 6px 0 #616161;
+  -webkit-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  transform: scale(0.93);
+}
+
+.play-button-wrapper-div:active {
+  box-shadow: 0 0 6px -1px #616161;
+  -webkit-transform: scale(0.88);
+  -ms-transform: scale(0.88);
+  transform: scale(0.88);
+}
+
+.film-description-section {
+  position: relative;
+  padding: 40px 80px;
+  background-color: #f7f7f7;
+}
+
+.cast-and-crew-section {
+  padding: 40px 80px;
+}
+
+.cast-and-crew-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Brandon blk', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.text-block-18 {
+  display: inline-block;
+  font-family: Brandon, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.actor-hyperlink {
+  display: inline-block;
+  margin-left: 7px;
+  font-family: 'Brandon med', sans-serif;
+  color: #7794c7;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.text-block-19 {
+  display: inline-block;
+  font-family: Brandon, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.text-block-19.cast-and-crew-line {
+  margin-left: 10px;
+}
+
+.film-members-line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.share-film-wrapper {
+  padding-top: 20px;
+  text-align: right;
+}
+
+.share-film-button {
+  padding: 10px 25px;
+  background-color: #333e51;
+  -webkit-transition: box-shadow 200ms ease-out, opacity 200ms ease;
+  transition: box-shadow 200ms ease-out, opacity 200ms ease;
+  font-family: 'Brandon blk', sans-serif;
+  letter-spacing: 1.8px;
+}
+
+.share-film-button:hover {
+  box-shadow: 1px 1px 2px 0 #000;
+}
+
+.image-15 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  height: 100%;
+}
+
+.section-3 {
+  position: relative;
+  padding-top: 60px;
+  background-color: #000;
+  text-align: center;
+}
+
+.image-16 {
+  position: relative;
+  z-index: 0;
+  overflow: visible;
+  width: auto;
+  height: 100%;
+  max-height: 100%;
+  -webkit-transition: all 550ms ease-in-out;
+  transition: all 550ms ease-in-out;
+}
+
+.film-grid-container {
+  display: inline-block;
+  max-width: 850px;
+}
+
+.film-grid-section {
+  text-align: center;
+}
+
+.div-block-25 {
+  display: inline-block;
+  width: 850px;
+  max-width: 850px;
+  text-align: left;
+}
+
+.featured-films {
+  display: block;
+  text-align: center;
+}
+
+.div-block-27 {
+  margin-top: 1%;
+  font-size: 14vw;
+}
+
+.plan-card-icon-wor {
+  text-align: center;
+}
+
+.plan-card-title-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.plan-card-description-row {
+  text-align: center;
+}
+
+.plan-card-button-row {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.image-17 {
+  width: 51px;
+}
+
+.text-block-20 {
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text-block-21 {
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: 'Brandon re', sans-serif;
+  font-size: 15px;
+  line-height: 1.7vw;
+  text-align: left;
+  letter-spacing: 0.7px;
+}
+
+.text-block-21.distributor-description {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.text-block-21.audience-description {
+  padding-right: 4%;
+  padding-left: 3%;
+}
+
+.text-block-21.how-it-works-description {
+  padding-top: 10%;
+  font-family: Brandon, sans-serif;
+  font-size: 23px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.text-block-21.how-it-works-description.oot-description {
+  padding-top: 60px;
+}
+
+.text-block-21.how-it-works-description.theatrical-distribution-description {
+  padding-top: 25%;
+}
+
+.select-plan-button {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #333e51;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+  font-family: 'Brandon med', sans-serif;
+  color: #f4f7ff;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.select-plan-button:hover {
+  box-shadow: 1px 1px 3px -1px #000;
+}
+
+.select-plan-button.select-plan-unavailable {
+  background-color: #9c9c9c;
+}
+
+.grid-11 {
+  max-height: 393px;
+  margin-left: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 0 1px 9px -1px #9e9e9e;
+}
+
+.featured-films-title-wrapper {
+  padding-top: 60px;
+}
+
+.plan-title-wrapper {
+  margin-bottom: 15px;
+}
+
+.mobile-buttons {
+  display: none;
+}
+
+.mobile-plan-title-grid {
+  display: none;
+}
+
+.text-block-22 {
+  font-family: 'Brandon blk', sans-serif;
+  color: #354155;
+  font-size: 18px;
+  line-height: 60px;
+  letter-spacing: 1.4px;
+}
+
+.text-block-23 {
+  font-family: 'Brandon blk', sans-serif;
+  color: #354155;
+  font-size: 18px;
+  line-height: 60px;
+  letter-spacing: 1.4px;
+}
+
+.grid-14 {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 365px;
+  height: 150px;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  border-radius: 13px;
+  box-shadow: 1px 1px 14px 0 hsla(0, 0%, 63.3%, 0.47);
+}
+
+.follow-me-card {
+  position: absolute;
+  z-index: -4;
+  display: inline-block;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.grid-15 {
+  display: -ms-grid;
+  display: grid;
+  width: 850px;
+  height: 360px;
+  max-height: 375px;
+  margin-left: 0px;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
+  -webkit-transition: box-shadow 200ms ease-out;
+  transition: box-shadow 200ms ease-out;
+}
+
+.grid-15:hover {
+  box-shadow: 0 1px 7px 1px #9e9e9e;
+}
+
+.mask-3 {
+  height: auto;
+  margin-left: auto;
+}
+
+.slider-3 {
+  height: auto;
+}
+
+.slide-5 {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mask-4 {
+  width: auto;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: hsla(0, 0%, 100%, 0);
+}
+
+.slide-6 {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.slide-nav-3 {
+  display: none;
+}
+
+.slider-4 {
+  display: inline-block;
+  width: 870px;
+  height: auto;
+  background-color: hsla(0, 0%, 86.7%, 0);
+  text-align: left;
+}
+
+.left-arrow {
+  left: -19px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 1px 1px 14px -4px #a7a7a7;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.left-arrow:hover {
+  box-shadow: 1px 1px 14px -4px #494949;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.left-arrow:active {
+  box-shadow: 0 0 8px -4px #0c0c0c;
+}
+
+.icon-3 {
+  display: inline-block;
+  border-radius: 0px;
+  color: #464646;
+}
+
+.image-18 {
+  width: 14px;
+  margin-top: 13px;
+  margin-left: 15px;
+  opacity: 0.85;
+}
+
+.right-arrow-2 {
+  left: 837px;
+  top: 20px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 1px 1px 14px -4px #a7a7a7;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.right-arrow-2:hover {
+  box-shadow: 1px 1px 14px -4px #494949;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.right-arrow-2:active {
+  box-shadow: 0 0 8px -4px #0c0c0c;
+}
+
+.icon-4 {
+  width: 1px;
+}
+
+.image-19 {
+  width: 14px;
+  margin-top: 13px;
+  margin-left: 21px;
+  opacity: 0.85;
+}
+
+.nav-menu {
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.spacer-div {
+  height: 60px;
+}
+
+.rotating-slides {
+  display: block;
+}
+
+.grid-16 {
+  display: inline-block;
+  max-width: 600px;
+  -ms-grid-columns: 0.8fr;
+  grid-template-columns: 0.8fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.text-block-24 {
+  display: inline-block;
+  font-family: 'Brandon re', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.grid-17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.text-block-25 {
+  padding-top: 15px;
+  font-family: 'Brandon blk', sans-serif;
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: 2px;
+}
+
+.text-block-26 {
+  font-family: Brandon, sans-serif;
+  font-size: 23px;
+  line-height: 34px;
+}
+
+.text-block-27 {
+  width: 600px;
+  margin-top: 10px;
+  font-family: 'Brandon re', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.4px;
+}
+
+.text-block-28 {
+  margin-top: 15px;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.image-20 {
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+.div-block-34 {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.text-block-29 {
+  display: inline-block;
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.text-block-30 {
+  margin-top: 18px;
+  margin-bottom: 3px;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.div-block-35 {
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.image-21 {
+  margin-top: -4px;
+  margin-left: 35px;
+}
+
+.button-3 {
+  margin-top: 5px;
+  background-color: #333e51;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.button-3:hover {
+  box-shadow: 1px 1px 6px 0 #a7a7a7;
+}
+
+.image-22 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.div-block-36 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.image-23 {
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+
+.div-block-37 {
+  position: absolute;
+  left: 119px;
+  top: -16px;
+  z-index: 0;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 0px 10px 12px;
+  border-color: #000 transparent #fff;
+}
+
+.slide-7 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.image-24 {
+  width: 220px;
+  height: 330px;
+}
+
+.div-block-38 {
+  padding-left: 20px;
+}
+
+.image-25 {
+  display: none;
+}
+
+.div-block-39 {
+  text-align: left;
+}
+
+.div-block-40 {
+  display: inline-block;
+}
+
+.right-arrow-3 {
+  left: 521px;
+}
+
+.left-arrow-2 {
+  left: -65px;
+}
+
+.link-block-6.w--current {
+  text-decoration: none;
+}
+
+.code-for-popup {
+  display: none;
+}
+
+.image-26 {
+  display: none;
+}
+
+.image-27 {
+  display: none;
+}
+
+.image-28 {
+  display: none;
+}
+
+.image-29 {
+  display: none;
+}
+
+.social-link {
+  width: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.social-link:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.social-link:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.image-30 {
+  margin-left: -1px;
+}
+
+.link-block-7 {
+  position: relative;
+  margin-top: 19px;
+}
+
+.follow-me-links {
+  width: 25px;
+  margin-right: 3px;
+  margin-left: 3px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.follow-me-links:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.follow-me-links:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.div-block-42 {
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.link-block-8 {
+  margin-right: 9px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.link-block-8:hover {
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.link-block-8:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.rate-this-film-popup {
+  position: absolute;
+  left: 108.734px;
+  top: 39px;
+  z-index: 1;
+  display: inline-block;
+  width: 150px;
+  height: 26px;
+  background-color: #333e51;
+}
+
+.text-block-31 {
+  display: block;
+  padding-right: 14px;
+  box-shadow: 1px 1px 7px 0 #a8a8a8;
+  font-family: Brandon, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+.text-block-32 {
+  position: relative;
+  left: 131px;
+  top: -24px;
+  display: inline-block;
+  opacity: 0.81;
+  font-family: Brandon, sans-serif;
+  color: #fff;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.div-block-44 {
+  position: absolute;
+  left: 59px;
+  top: -12px;
+  width: 21px;
+  height: 14px;
+  border-style: solid;
+  border-width: 0px 10px 10px;
+  border-color: #000 transparent #333e51;
+}
+
+.image-31 {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  width: 160px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.image-31:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.image-31:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.div-block-46 {
+  position: relative;
+  top: 38%;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.div-block-47 {
+  position: relative;
+}
+
+.html-embed {
+  display: none;
+}
+
+.nav-menu-2 {
+  margin-top: 3px;
+}
+
+.html-embed-2 {
+  display: block;
+}
+
+.image-33.account-info-logo {
+  margin-left: 1px;
+}
+
+.image-33.account-info-logo.mobile-account-signup-logo {
+  display: none;
+}
+
+.div-block-48 {
+  margin-top: 15px;
+}
+
+.div-block-49 {
+  width: 100%;
+  height: 88%;
+  background-image: url('../images/ivote-keyart-horizontal-hq.png');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.image-35 {
+  width: 70%;
+  max-width: 900px;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.pop-up-background {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.pop-up-card {
+  position: fixed;
+  left: 50%;
+  top: 70px;
+  z-index: -4;
+  display: block;
+  width: 1000px;
+  height: 570px;
+  margin-left: -500px;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease, top 200ms ease;
+  transition: opacity 200ms ease, top 200ms ease;
+}
+
+.pop-up-header-background {
+  position: relative;
+  width: 100%;
+  background-color: #333e51;
+}
+
+.pop-up-header {
+  margin-top: 0px;
+  opacity: 1;
+  font-family: 'Brandon bld', sans-serif;
+  color: #fff;
+  font-size: 27px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.pop-up-content-grid {
+  display: -ms-grid;
+  display: grid;
+  padding: 25px 20px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 15px;
+  -ms-grid-columns: 1fr 0.75fr;
+  grid-template-columns: 1fr 0.75fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.account-creation-wrapper {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.cancel-button-wrapper {
+  position: absolute;
+  left: 94%;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  padding-top: 14px;
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cancel-button-wrapper:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.cancel-button-wrapper:active {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.cancel-button {
+  width: 20px;
+  -webkit-transform: scale3d(0.85, 1, 1);
+  transform: scale3d(0.85, 1, 1);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.benefits-and-image-grid {
+  margin-top: 10px;
+  grid-column-gap: 8px;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.benefits-list {
+  font-family: 'Brandon med', sans-serif;
+  color: #333e51;
+  line-height: 29px;
+}
+
+.benefits-list-title {
+  margin-bottom: 10px;
+  font-family: 'Brandon blk', sans-serif;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.sign-up-slider {
+  display: block;
+  width: 400px;
+  background-color: transparent;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.slide-nav-4 {
+  display: none;
+}
+
+.slide-nav-5 {
+  display: none;
+}
+
+.computer-image-wrapper {
+  text-align: center;
+}
+
+.image-36 {
+  width: 410px;
+  margin-top: 35px;
+}
+
+.slider-5 {
+  background-color: transparent;
+  -webkit-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+.create-account-title-wrapper {
+  text-align: center;
+}
+
+.create-new-account-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.image-37 {
+  width: 55px;
+}
+
+.screen-anytime-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.submit-button {
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 2px;
+  background-color: #333e51;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+  font-family: 'Brandon blk', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 38px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  box-shadow: 0 1px 7px 1px rgba(0, 0, 0, 0.29);
+}
+
+.form-input {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(51, 62, 81, 0.13);
+  border-radius: 2px;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.08);
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  letter-spacing: 0.5px;
+}
+
+.form-input.form-input-half-row {
+  display: inline-block;
+  width: 160px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.form-input.form-input-half-row.last-half {
+  width: 48%;
+  margin-right: 0px;
+  float: right;
+}
+
+.form-input.form-input-half-row.billing-input {
+  width: 49%;
+  margin-right: 0px;
+}
+
+.form-input.form-input-half-row.create-account-input-first-name {
+  width: 48%;
+  margin-right: 0px;
+}
+
+.form-input.billing-input {
+  height: 31px;
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.show-password-toggle-button {
+  position: absolute;
+  left: 331px;
+  top: 253px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.next-button-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text-block-33 {
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+.mask-5 {
+  overflow: hidden;
+  height: auto;
+}
+
+.billing-information-wrapper {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.billing-information-title {
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  letter-spacing: 2px;
+}
+
+.image-38 {
+  width: 160px;
+}
+
+.submit-button-2 {
+  display: inline-block;
+  width: 190px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  background-color: #333e51;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+  font-family: 'Brandon bld', sans-serif;
+  color: #fff;
+  font-size: 10px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.submit-button-2:hover {
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.start-membership-button-wrapper {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.billing-frequency-title {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+.monthly-billing-button {
+  display: inline-block;
+  width: 49%;
+  padding-left: 30px;
+  border-radius: 2px;
+  background-color: #333e51;
+  -webkit-transition: background-color 200ms ease, box-shadow 200ms ease;
+  transition: background-color 200ms ease, box-shadow 200ms ease;
+  text-align: left;
+  cursor: pointer;
+}
+
+.monthly-billing-button:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.text-block-34 {
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Brandon bld', sans-serif;
+  color: #fff;
+  line-height: 45px;
+  letter-spacing: 2px;
+}
+
+.text-block-34.monthly-button-text {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-size: 10px;
+  line-height: 35px;
+}
+
+.text-block-34.annual-button-text {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: #333e51;
+  font-size: 10px;
+  line-height: 35px;
+}
+
+.image-39 {
+  width: 25px;
+}
+
+.image-39.annual-billing-icon {
+  width: 15px;
+}
+
+.image-39.monthly-billing-icon {
+  width: 18px;
+}
+
+.annual-billing-button {
+  display: inline-block;
+  width: 48%;
+  margin-left: 2%;
+  padding-left: 27px;
+  border: 1px solid #333e51;
+  border-radius: 2px;
+  -webkit-transition: background-color 200ms ease, box-shadow 200ms ease;
+  transition: background-color 200ms ease, box-shadow 200ms ease;
+  cursor: pointer;
+}
+
+.annual-billing-button:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.text-block-35 {
+  position: absolute;
+  left: 30px;
+  display: inline-block;
+  margin-right: 45px;
+  padding-top: 8px;
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+}
+
+.left-arrow-3 {
+  display: none;
+}
+
+.right-arrow-4 {
+  display: none;
+}
+
+.right-arrow-5 {
+  display: none;
+}
+
+.left-arrow-4 {
+  display: none;
+}
+
+.image-40 {
+  display: none;
+}
+
+.popup-js {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.div-block-50 {
+  top: 90px;
+  z-index: -4;
+  display: block;
+  height: 560px;
+  opacity: 0;
+}
+
+.slide-9 {
+  height: auto;
+}
+
+.film-popup {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2500;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 93.3%, 0.97);
+  opacity: 1;
+  -webkit-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+}
+
+.festiv-logo-wrapper-welcome {
+  margin-bottom: 40px;
+}
+
+.welcome-text {
+  margin-bottom: 20px;
+  font-family: Brandon, sans-serif;
+  font-size: 70px;
+  line-height: 90px;
+  letter-spacing: 5px;
+}
+
+.container-3 {
+  padding-top: 175px;
+  opacity: 0.12;
+  -webkit-transition: padding 500ms ease-in-out, opacity 500ms ease-in-out;
+  transition: padding 500ms ease-in-out, opacity 500ms ease-in-out;
+  text-align: center;
+}
+
+.image-41 {
+  width: 90px;
+}
+
+.button-4 {
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 2px;
+  background-color: #333e51;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.8px;
+  cursor: pointer;
+}
+
+.button-4:hover {
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.33);
+}
+
+.button-4:active {
+  box-shadow: 1px 1px 5px -6px rgba(0, 0, 0, 0.33);
+}
+
+.html-embed-3 {
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+
+.html-embed-4 {
+  display: none;
+}
+
+.extra-documents-page-title {
+  font-family: 'Brandon med', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.extra-documents-small-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Brandon med', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.extra-documents-small-header.bulleted-text {
+  padding-left: 40px;
+}
+
+.extra-documents-small-header.bulleted-text.extra-bulleted-text {
+  padding-left: 80px;
+}
+
+.extra-documents-small-header.about-us-small-header {
+  text-align: center;
+}
+
+.extra-documents-text {
+  font-family: 'Brandon re', sans-serif;
+}
+
+.extra-documents-text.extra-documents-bullet-points {
+  padding-left: 40px;
+}
+
+.extra-documents-text.extra-documents-bullet-points.extra-documents-extra-bullet-points {
+  padding-left: 80px;
+}
+
+.extra-documents-text.endorsements {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.extra-documents-text.extra-documents-text-centered {
+  text-align: center;
+}
+
+.extra-documents-text.extra-documents-text-footnote {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.extra-documents-title-wrapper {
+  margin-top: 120px;
+  margin-bottom: 35px;
+}
+
+.bio-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 25px;
+  -ms-grid-columns: 0.35fr 1fr;
+  grid-template-columns: 0.35fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.bio-grid.bio-grid-flip {
+  -ms-grid-columns: 1fr 0.35fr;
+  grid-template-columns: 1fr 0.35fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-18 {
+  display: block;
+}
+
+.div-block-52 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.advisor-name {
+  font-family: 'Brandon med', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.advisor-description {
+  font-family: 'Brandon re', sans-serif;
+}
+
+.advisor-occupation {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-family: 'Brandon re', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.extra-documents-container {
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.extra-documents-page-subtitle {
+  margin-top: 5px;
+  font-family: 'Brandon re', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.section-6 {
+  padding-bottom: 40px;
+}
+
+.share-film-button-code {
+  display: none;
+}
+
+.submit-films-js {
+  display: none;
+}
+
+.submit-films-footer-js {
+  display: block;
+}
+
+.extra-documents-super-small-header {
+  font-family: 'Brandon bld', sans-serif;
+}
+
+.div-block-53 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.extra-documents-festiv-icon {
+  width: 100px;
+}
+
+.div-block-54 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.number-grid {
+  grid-column-gap: 8px;
+  -ms-grid-columns: minmax(80px, 80px) 1fr;
+  grid-template-columns: minmax(80px, 80px) 1fr;
+}
+
+.extra-documents-text-number {
+  font-family: 'Brandon bld', sans-serif;
+  text-align: right;
+}
+
+.div-block-55 {
+  display: inline-block;
+  width: 100%;
+  max-width: 850px;
+}
+
+.navbar-logo-mobile-menu {
+  display: none;
+}
+
+.video-grid-js {
+  display: none;
+}
+
+.html-embed-5 {
+  display: none;
+}
+
+.div-block-57 {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.link-block-9 {
+  color: #333;
+  text-decoration: none;
+}
+
+.link-block-10 {
+  color: #333;
+  text-decoration: none;
+}
+
+.button-5 {
+  display: none;
+}
+
+.link-block-11 {
+  text-decoration: none;
+}
+
+.link-block-11.account-username-link {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.back-to-account-text {
+  display: inline-block;
+  font-family: 'Brandon bld', sans-serif;
+  color: #7994c3;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.section-8 {
+  padding-top: 109px;
+  padding-bottom: 151px;
+}
+
+.account-info-container {
+  max-width: 450px;
+}
+
+.account-info-card {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 35px 37px 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.09);
+}
+
+.account-info-card-title {
+  display: inline-block;
+  margin-bottom: 30px;
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}
+
+.grid-19 {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.account-info-field-label {
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+  float: left;
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.field-label-2 {
+  font-family: 'Brandon re', sans-serif;
+}
+
+.field-label-3 {
+  font-family: 'Brandon re', sans-serif;
+}
+
+.field-label-4 {
+  font-family: 'Brandon re', sans-serif;
+}
+
+.field-label-5 {
+  font-family: 'Brandon re', sans-serif;
+}
+
+.submit-button-3 {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #333e51;
+  font-family: 'Brandon bld', sans-serif;
+  letter-spacing: 2.2px;
+}
+
+.back-to-account-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.div-block-58 {
+  width: 100%;
+}
+
+.account-info-text-field {
+  display: inline-block;
+  width: 290px;
+  height: 30px;
+  border: 0px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.31);
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.html-embed-6 {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.html-embed-7 {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.fixed-background-account-pages {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Account-Settings-B.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  opacity: 1;
+}
+
+.section-9 {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.form {
+  width: 100%;
+}
+
+.submit-button-4 {
+  width: 40%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: 'Brandon re', sans-serif;
+  color: #df0000;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+.submit-button-4.log-out-button {
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.09);
+  text-align: center;
+}
+
+.submit-button-4.cancel-subscription-button {
+  float: right;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.09);
+  text-align: center;
+}
+
+.account-details-grid {
+  margin-bottom: 15px;
+  grid-column-gap: 10px;
+  -ms-grid-columns: 1fr 2.5fr;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.account-details-grid-title {
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  letter-spacing: 0.5px;
+}
+
+.account-details-grid-label {
+  overflow: hidden;
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  text-align: right;
+  letter-spacing: 0.5px;
+}
+
+.text-block-36 {
+  font-family: 'Brandon bld', sans-serif;
+  color: #7994c3;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.link-block-12 {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.div-block-59 {
+  display: inline-block;
+  padding: 4px 15px;
+  float: right;
+  border: 1px solid #333e51;
+  border-radius: 19px;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+  cursor: pointer;
+}
+
+.div-block-59:hover {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.14);
+}
+
+.html-embed-8 {
+  display: inline-block;
+}
+
+.text-block-37 {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 0px;
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+}
+
+.link-block-13 {
+  float: right;
+  cursor: pointer;
+}
+
+.div-block-60 {
+  position: fixed;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#323d50), to(#171a1e));
+  background-image: linear-gradient(180deg, #323d50, #171a1e);
+}
+
+.fixed-backdrop-filmmaker-signup {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/filmmaker-sign-up.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.section-10 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.container-4 {
+  max-width: 920px;
+}
+
+.div-block-61 {
+  width: 400px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.sign-up-card {
+  width: 400px;
+  padding: 5px 30px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.sign-up-card-wrapper {
+  width: 400px;
+  margin-left: 5px;
+}
+
+.sign-up-card-title {
+  margin-bottom: 35px;
+  padding-top: 17px;
+  font-family: 'Brandon med', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.submit-button-5 {
+  width: 100%;
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  font-size: 16px;
+}
+
+.sign-up-submit-button {
+  width: 100%;
+  height: 46px;
+  margin-top: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-transition: box-shadow 200ms ease-out;
+  transition: box-shadow 200ms ease-out;
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.sign-up-submit-button:hover {
+  box-shadow: 1px 1px 13px -4px #000;
+}
+
+.sign-up-card-inner-title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.form-section {
+  margin-bottom: 18px;
+}
+
+.sign-up-field-title {
+  display: inline-block;
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.7px;
+}
+
+.text-field {
+  display: inline-block;
+  width: 257px;
+  height: 27px;
+  float: right;
+  border: 0px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.23);
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.sign-up-form-field-entry {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.sign-up-text-field {
+  display: inline-block;
+  overflow: hidden;
+  width: 241px;
+  height: 27px;
+  float: right;
+  border: 0px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.23);
+  font-family: 'Brandon re', sans-serif;
+  color: #333e51;
+  letter-spacing: 0.7px;
+}
+
+.text-block-38 {
+  display: inline-block;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+  line-height: 27px;
+  letter-spacing: 0.7px;
+}
+
+.total-dollar-amount-sign-up {
+  display: inline-block;
+  width: 260px;
+  float: right;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+  line-height: 27px;
+  letter-spacing: 0.7px;
+}
+
+.grid-20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.account-signup-page-title {
+  margin-top: 0px;
+  margin-bottom: 39px;
+  font-family: 'Brandon med', sans-serif;
+  color: #fff;
+  font-size: 49px;
+  letter-spacing: 1px;
+}
+
+.billing-frequency-button {
+  float: right;
+}
+
+.billing-frequency-button-card {
+  width: 400px;
+  height: 46px;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  cursor: pointer;
+}
+
+.billing-frequency-button-card:hover {
+  background-color: #d4d4d4;
+}
+
+.billing-frequency-button-card:active {
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.radio-button {
+  width: 16px;
+  height: 16px;
+  margin-top: 12px;
+}
+
+.radio-button.radio-button-billing {
+  border-radius: 0px;
+}
+
+.text-block-39 {
+  display: inline-block;
+  padding-top: 1px;
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  font-size: 15px;
+  line-height: 46px;
+  letter-spacing: 1px;
+}
+
+.billing-frequency-radio-div {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-top: 15px;
+  float: right;
+  border-radius: 100%;
+  background-color: #d9dadc;
+  box-shadow: inset 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.plan-cost {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: 'Brandon re', sans-serif;
+  font-size: 15px;
+  line-height: 46px;
+  letter-spacing: 1px;
+}
+
+.plan-cost.plan-cost-deal {
+  text-decoration: line-through;
+}
+
+.plan-description {
+  margin-top: 41px;
+}
+
+.plan-description-title {
+  font-family: 'Brandon med', sans-serif;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+.plan-description-bullet-text {
+  margin-top: 20px;
+  font-family: Brandon, sans-serif;
+  color: #fff;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.7px;
+}
+
+.contact-filmmaker-button {
+  margin-right: 22px;
+  padding: 10px 25px;
+  background-color: #333e51;
+  -webkit-transition: box-shadow 200ms ease-out;
+  transition: box-shadow 200ms ease-out;
+  font-family: 'Brandon blk', sans-serif;
+  letter-spacing: 1.8px;
+  cursor: pointer;
+}
+
+.contact-filmmaker-button:hover {
+  box-shadow: 1px 1px 2px 0 #000;
+}
+
+.fixed-backdrop-distributor-signup {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/distributor-sign-up.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.fixed-background-signin {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/festiv-film-grid-bg.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  opacity: 1;
+}
+
+.sign-in-container {
+  max-width: 500px;
+}
+
+.section-11 {
+  padding-top: 131px;
+  padding-bottom: 168px;
+}
+
+.sign-in-card {
+  margin-top: 5px;
+  padding: 20px 50px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px 12px 0 rgba(0, 0, 0, 0.18);
+}
+
+.sign-in-title {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Brandon blk', sans-serif;
+  color: #333e51;
+  font-size: 28px;
+  line-height: 82px;
+  letter-spacing: 4px;
+}
+
+.text-block-40 {
+  display: inline-block;
+  padding-top: 1px;
+  float: right;
+  opacity: 0.79;
+  font-family: Brandon, sans-serif;
+  font-size: 19px;
+  line-height: 82px;
+  text-decoration: underline;
+}
+
+.link-block-14 {
+  float: right;
+  color: #333e51;
+}
+
+.sign-in-field-label {
+  margin-bottom: 0px;
+  padding-top: 30px;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+}
+
+.sign-in-text-field {
+  margin-top: 3px;
+  padding-left: 0px;
+  border-style: none none solid;
+  border-width: 1px 1px 1px 2px;
+  border-color: #000 #000 #000 #333e51;
+  font-family: Brandon, sans-serif;
+  color: #333e51;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.submit-button-6 {
+  width: 200px;
+}
+
+.sign-in-button-wrapper {
+  margin-top: 36px;
+  text-align: center;
+}
+
+.sign-in-button {
+  width: 200px;
+  border-radius: 68px;
+  background-color: #333e51;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.13);
+  -webkit-transition: box-shadow 200ms ease-out;
+  transition: box-shadow 200ms ease-out;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.sign-in-button:hover {
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.reset-password-wrapper {
+  height: 26px;
+  font-size: 13px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.reset-password-link-block {
+  color: #333e51;
+}
+
+.text-block-41 {
+  opacity: 0.79;
+  font-family: Brandon, sans-serif;
+}
+
+.form-block-2 {
+  margin-bottom: 4px;
+}
+
+.div-block-62 {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/festiv-film-grid-bg.png');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.section-12 {
+  padding-top: 77px;
+  padding-bottom: 120px;
+}
+
+.submit-your-film-title {
+  font-family: 'Brandon med', sans-serif;
+  color: #333e51;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.text-block-42 {
+  margin-top: 20px;
+  font-family: 'Brandon re', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+.container-5 {
+  max-width: 750px;
+  text-align: center;
+}
+
+.text-block-43 {
+  font-family: 'Brandon blk', sans-serif;
+  letter-spacing: 1px;
+}
+
+.link-block-15 {
+  margin-top: 8px;
+  color: #333e51;
+}
+
+.grid-21 {
+  margin-top: 47px;
+  justify-items: center;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-21.submission-type-grid {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.submission-steps-card {
+  width: 320px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 1px 1px 31px 4px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  color: #333e51;
+}
+
+.submission-steps-card:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.submission-steps-card.submission-type-card {
+  width: 240px;
+}
+
+.powered-by-wrapper {
+  margin-top: 25px;
+}
+
+.text-block-44 {
+  font-family: 'Brandon bld', sans-serif;
+}
+
+.steps-card-title {
+  margin-bottom: 45px;
+  font-family: 'Brandon bld', sans-serif;
+  font-size: 15px;
+}
+
+.text-block-45 {
+  margin-top: 20px;
+  font-family: Brandon, sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.text-block-46 {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  font-family: Brandon, sans-serif;
+  font-size: 17px;
+}
+
+.button-6 {
+  width: 200px;
+  border: 2px solid #000;
+  border-radius: 68px;
+  background-color: #fff;
+  font-family: 'Brandon bld', sans-serif;
+  color: #333e51;
+}
+
+.button-6.submit-now-button {
+  -webkit-transition: background-color 200ms ease-out, color 200ms ease-out, box-shadow 200ms ease-out, border-color 200ms ease-out;
+  transition: background-color 200ms ease-out, color 200ms ease-out, box-shadow 200ms ease-out, border-color 200ms ease-out;
+}
+
+.button-6.submit-now-button:hover {
+  border-color: #333e51;
+  background-color: #333e51;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.text-block-47 {
+  display: inline-block;
+  font-family: 'Brandon re', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.image-42 {
+  margin-left: 5px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+}
+
+.html-embed-9 {
+  display: none;
+}
+
+.div-block-63 {
+  text-align: center;
+}
+
+.div-block-64 {
+  text-align: center;
+}
+
+.heading-6 {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  font-family: 'Brandon med', sans-serif;
+  color: #fff;
+  font-size: 41px;
+  line-height: 44px;
+  letter-spacing: 1.3px;
+}
+
+.heading-7 {
+  margin-top: 9px;
+  margin-bottom: 31px;
+  font-family: 'Brandon med', sans-serif;
+  font-size: 41px;
+  letter-spacing: 1px;
+}
+
+.image-43 {
+  width: auto;
+  height: 59px;
+  margin-top: 0px;
+}
+
+.image-44 {
+  height: 59px;
+  margin-top: 0px;
+}
+
+.success-message {
+  font-family: 'Brandon med', sans-serif;
+  color: #333e51;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 2px;
+}
+
+.div-block-65 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  float: right;
+  background-color: #1b8aac;
+  text-align: right;
+}
+
+.image-45 {
+  line-height: 100%;
+}
+
+.tabs-content {
+  height: 630px;
+}
+
+.div-block-66 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #f6cf50;
+  text-align: center;
+}
+
+.image-46 {
+  height: 100%;
+  max-width: none;
+  margin-left: 17%;
+}
+
+.div-block-67 {
+  width: 100%;
+  height: 100%;
+  background-color: #a591b4;
+  text-align: center;
+}
+
+.image-47 {
+  height: 100%;
+  margin-left: 30%;
+}
+
+.image-48 {
+  display: none;
+}
+
+.image-49 {
+  display: none;
+}
+
+.image-50 {
+  display: none;
+}
+
+.grid-22 {
+  display: none;
+}
+
+.grid-23 {
+  display: none;
+}
+
+.grid-24 {
+  display: none;
+}
+
+.bold-text {
+  color: #333;
+}
+
+@media screen and (min-width: 1280px) {
+  .film-grid {
+    grid-row-gap: 35px;
+  }
+
+  .text-block-2 {
+    width: 43%;
+    letter-spacing: 1.2px;
+  }
+
+  .button-2 {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .image-2 {
+    margin-top: -6px;
+  }
+
+  .text-block-4 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .tab-pane-tab-2 {
+    background-position: 0% -90px;
+    background-size: 100%;
+  }
+
+  .tab-pane-tab-3 {
+    background-position: 50% -110px;
+    background-size: 100%;
+  }
+
+  .div-block-4 {
+    margin-top: 0px;
+  }
+
+  .text-block-5 {
+    font-size: 17px;
+    letter-spacing: 1.2px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .image-6 {
+    width: 63%;
+  }
+
+  .hidden-description {
+    padding-top: 40px;
+  }
+
+  .select-plan-title-text.how-it-works-title-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .footer-col-text-title {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .text-block-6 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .heading-4.recommended-films-title-subhomepage {
+    margin-top: 0px;
+  }
+
+  .heading-4.featured-articles-title-subhomepage {
+    margin-top: 60px;
+  }
+
+  .navbar-username {
+    color: #333e51;
+  }
+
+  .slide-template {
+    width: 100%;
+  }
+
+  .featured-articles-title-wrapper {
+    margin-top: 40px;
+  }
+
+  .movie-description-grid-year.evie-year {
+    color: #fff;
+  }
+
+  .script-for-popup-navbar {
+    display: none;
+  }
+
+  .text-block-20 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .text-block-21 {
+    line-height: 23px;
+  }
+
+  .text-block-21.distributor-description {
+    line-height: 23px;
+  }
+
+  .featured-films-title-wrapper {
+    padding-top: 81px;
+  }
+
+  .text-block-22 {
+    font-size: 17px;
+    letter-spacing: 1.2px;
+  }
+
+  .text-block-23 {
+    font-size: 17px;
+    letter-spacing: 1.2px;
+  }
+
+  .div-block-32 {
+    margin-bottom: 0px;
+  }
+
+  .follow-me-card {
+    display: none;
+  }
+
+  .slide-5 {
+    width: auto;
+  }
+
+  .slider-4 {
+    height: 400px;
+  }
+
+  .left-arrow {
+    top: -17px;
+  }
+
+  .right-arrow-2 {
+    position: relative;
+    left: 427px;
+    top: -223px;
+  }
+
+  .div-block-34 {
+    display: none;
+  }
+
+  .image-29 {
+    display: none;
+  }
+
+  .image-31 {
+    position: relative;
+  }
+
+  .div-block-45 {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    background-image: url('../images/ivote-movie-backdrop.png');
+    background-position: 0% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .image-35 {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .text-block-2 {
+    width: 50%;
+    max-width: 570px;
+    margin-top: 9px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    line-height: 44px;
+  }
+
+  .text-block-2.white-subtitle {
+    max-width: 530px;
+  }
+
+  .button-2 {
+    padding-right: 28px;
+    padding-left: 28px;
+    font-size: 18px;
+    line-height: 31px;
+  }
+
+  .image-2 {
+    margin-top: -9px;
+  }
+
+  .tab-pane-tab-2 {
+    background-position: 0% -140px;
+    background-size: 100%;
+  }
+
+  .div-block-4 {
+    display: block;
+  }
+
+  .text-block-5 {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  .heading {
+    font-size: 31px;
+    letter-spacing: 3px;
+  }
+
+  .image-6 {
+    width: 64%;
+  }
+
+  .grid {
+    max-height: none;
+    padding-right: 10%;
+    padding-left: 10%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .hidden-description {
+    padding-top: 35px;
+  }
+
+  .select-plan-title-text.how-it-works-title-text {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .grid-5 {
+    margin-bottom: 14px;
+  }
+
+  .footer {
+    padding-top: 80px;
+  }
+
+  .featured-film-card-description {
+    margin-top: 0px;
+  }
+
+  .featured-film-card-date {
+    font-size: 27px;
+    line-height: 27px;
+  }
+
+  .div-block-9 {
+    padding-top: 20px;
+  }
+
+  .featured-film-card-info {
+    text-align: left;
+  }
+
+  .slide-template {
+    width: 100%;
+  }
+
+  .code-for-film-grid {
+    display: none;
+  }
+
+  .script-for-popup-navbar {
+    display: none;
+  }
+
+  .text-block-21.distributor-description {
+    line-height: 24px;
+  }
+
+  .text-block-21.how-it-works-description {
+    padding-top: 14%;
+  }
+
+  .text-block-22 {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  .text-block-23 {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  .slide-5 {
+    width: auto;
+  }
+
+  .left-arrow {
+    top: -16px;
+  }
+
+  .right-arrow-2 {
+    left: 427px;
+  }
+
+  .heading-6 {
+    margin-top: -53px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    line-height: 54px;
+  }
+
+  .heading-7 {
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+
+  .image-43 {
+    margin-top: 0px;
+  }
+
+  .image-44 {
+    margin-top: 0px;
+  }
+
+  .image-45 {
+    height: 100%;
+  }
+
+  .tabs-content {
+    height: 845px;
+  }
+
+  .div-block-66 {
+    clear: right;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .three-different-tabs.distributors-tab {
+    display: inline-block;
+  }
+
+  .film-grid {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .text-block-2 {
+    margin-bottom: 31px;
+    letter-spacing: 2px;
+  }
+
+  .button-2 {
+    padding-right: 40px;
+    padding-left: 40px;
+    letter-spacing: 2px;
+  }
+
+  .image-2 {
+    margin-top: -8px;
+  }
+
+  .text-block-3 {
+    cursor: default;
+  }
+
+  .tab-pane-tab-2 {
+    background-position: 0% -210px;
+  }
+
+  .tab-pane-tab-3 {
+    background-position: 50% -470px;
+  }
+
+  .div-block-4 {
+    margin-top: -1%;
+  }
+
+  .text-block-5 {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .heading {
+    letter-spacing: 4px;
+  }
+
+  .image-6 {
+    max-width: 1010px;
+    font-size: 19px;
+  }
+
+  .grid {
+    max-height: 840px;
+  }
+
+  .hidden-description {
+    padding-top: 25px;
+  }
+
+  .grid-5.planet-carlos-title-grid {
+    margin-bottom: 20px;
+  }
+
+  .featured-film-card-description {
+    margin-top: 4px;
+    cursor: default;
+  }
+
+  .featured-film-card-description.ivote-description {
+    margin-bottom: 14px;
+  }
+
+  .featured-film-card-description.lil-buck-decription {
+    margin-top: 6px;
+  }
+
+  .featured-film-card-description.planet-carlos-ff-description {
+    margin-bottom: 20px;
+  }
+
+  .featured-film-card-description.caroline-ff-description {
+    cursor: default;
+  }
+
+  .featured-film-card-date {
+    cursor: default;
+  }
+
+  .featured-film-card-title {
+    cursor: default;
+  }
+
+  .featured-film-card-title.crappy-birthday-ff-title {
+    cursor: default;
+  }
+
+  .film-screenshots-small {
+    width: 95px;
+  }
+
+  .div-block-9 {
+    padding-top: 30px;
+    padding-right: 27px;
+  }
+
+  .div-block-9.evie-feature-card {
+    padding-top: 35px;
+    padding-right: 39px;
+  }
+
+  .div-block-9.ivote-ff-card {
+    padding-top: 27px;
+  }
+
+  .featured-film-card-info {
+    margin-top: 16px;
+    cursor: default;
+  }
+
+  .grid-8 {
+    grid-column-gap: 30px;
+  }
+
+  .slider-2 {
+    width: 1400px;
+  }
+
+  .heading-4 {
+    margin-bottom: 30px;
+  }
+
+  .heading-4.featured-films-title-subhomepage {
+    display: inline-block;
+    width: 100%;
+    max-width: 1700px;
+  }
+
+  .heading-4.recc-films-title {
+    max-width: 1700px;
+  }
+
+  .heading-4.featured-articles-title-subhomepage {
+    margin-top: 20px;
+    cursor: default;
+  }
+
+  .div-block-11 {
+    padding-right: 0%;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  .image-12 {
+    margin-left: 7px;
+  }
+
+  .featured-film-card-images-wrapper {
+    margin-top: 20px;
+  }
+
+  .slide-template {
+    width: 100%;
+  }
+
+  .code-for-film-grid {
+    display: none;
+  }
+
+  .variety-article-element {
+    left: auto;
+  }
+
+  .slide-4 {
+    width: 600px;
+  }
+
+  .mask-2 {
+    width: 1400px;
+  }
+
+  .featured-articles-title-wrapper {
+    padding-top: 20px;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .movie-description.the-school-bag-description {
+    padding-top: 25px;
+  }
+
+  .movie-description.staff-only-description {
+    padding-top: 37px;
+  }
+
+  .movie-description.the-judgment-description {
+    padding-top: 29px;
+  }
+
+  .movie-description.papi-chulo-description {
+    padding-top: 38px;
+  }
+
+  .movie-description-grid-description.tgc-dsc {
+    margin-bottom: 5px;
+  }
+
+  .movie-description-grid-stats.we-the-children-time {
+    padding-top: 2px;
+  }
+
+  .script-for-popup-navbar {
+    display: none;
+  }
+
+  .featured-films-title-homepage {
+    max-width: 1700px;
+  }
+
+  .film-grid-container {
+    max-width: 1700px;
+  }
+
+  .div-block-25 {
+    width: 100%;
+    max-width: 1700px;
+  }
+
+  .text-block-22 {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .text-block-23 {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .grid-14 {
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .follow-me-card {
+    display: inline-block;
+  }
+
+  .grid-15 {
+    width: 800px;
+  }
+
+  .slide-5 {
+    width: 850px;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .slide-6 {
+    width: 850px;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .slider-4 {
+    width: 1700px;
+  }
+
+  .left-arrow {
+    top: -19px;
+  }
+
+  .right-arrow-2 {
+    left: 822px;
+    top: -223px;
+  }
+
+  .slide-7 {
+    width: 850px;
+    height: auto;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .right-arrow-3 {
+    left: 1316px;
+  }
+
+  .image-34 {
+    width: 200px;
+  }
+
+  .submit-films-js {
+    display: none;
+  }
+
+  .div-block-55 {
+    max-width: 1700px;
+  }
+
+  .section-7 {
+    margin-bottom: 60px;
+  }
+
+  .fixed-backdrop-filmmaker-signup {
+    background-position: 0px -30px;
+  }
+
+  .div-block-61 {
+    margin-right: 5px;
+  }
+
+  .sign-up-card-wrapper {
+    margin-left: 5px;
+  }
+
+  .image-46 {
+    margin-left: 41%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .three-different-tabs.distributors-tab {
+    height: 50px;
+    margin-top: -50px;
+    line-height: 50px;
+  }
+
+  .three-different-tabs.distributors-tab.w--current {
+    margin-top: -50px;
+  }
+
+  .three-different-tabs.filmmakers-tab {
+    height: 50px;
+    margin-top: -50px;
+    line-height: 50px;
+  }
+
+  .three-different-tabs.filmmakers-tab.w--current {
+    height: 50px;
+    margin-top: -50px;
+  }
+
+  .three-different-tabs.audiences-tab {
+    height: 50px;
+    margin-top: -50px;
+  }
+
+  .film-grid {
+    grid-column-gap: 15px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .button {
+    display: none;
+    color: #fff;
+  }
+
+  .button.mobile-sign-in {
+    display: block;
+  }
+
+  .text-block-2 {
+    width: 56%;
+    margin-top: 4px;
+    margin-bottom: 11px;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .text-block-2.white-subtitle {
+    width: 60%;
+  }
+
+  .button-2 {
+    margin-top: 1vh;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .image-2 {
+    margin-top: -8px;
+  }
+
+  .tab-pane-tab-2 {
+    background-position: 0% -10px;
+    background-size: 100%;
+  }
+
+  .tab-pane-tab-3 {
+    background-position: -70px -120px;
+    background-size: 120%;
+  }
+
+  .div-block-3 {
+    margin-top: 32px;
+    padding-top: 0vh;
+  }
+
+  .text-block-5 {
+    font-size: 15px;
+    line-height: 50px;
+  }
+
+  .heading {
+    width: 68%;
+    font-size: 21px;
+    line-height: 29px;
+  }
+
+  .movie-image {
+    width: 150px;
+    height: 225px;
+  }
+
+  .image-6 {
+    width: 60%;
+  }
+
+  .image-6.fuel-your-passion-white-text {
+    width: 60%;
+  }
+
+  .grid {
+    max-height: 490px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .nav-link-2 {
+    display: inline-block;
+  }
+
+  .section {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .heading-2.select-your-plan-heading {
+    margin-bottom: 36px;
+  }
+
+  .body-2 {
+    background-color: #f7f7f7;
+  }
+
+  .div-block-5 {
+    max-width: 760px;
+  }
+
+  .grid-2 {
+    padding-right: 130px;
+    padding-left: 130px;
+    grid-row-gap: 50px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .hidden-description {
+    padding-top: 9%;
+    box-shadow: 1px 1px 10px -5px #000;
+    opacity: 1;
+  }
+
+  .select-plan-title-text.how-it-works-title-text {
+    font-size: 26px;
+    line-height: 43px;
+  }
+
+  .grid-7 {
+    margin-top: 30px;
+  }
+
+  .featured-film-card-description {
+    margin-top: 11px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .featured-film-card-description.lil-buck-decription {
+    margin-top: 10px;
+  }
+
+  .featured-film-card-description.planet-carlos-ff-description {
+    margin-top: 17px;
+  }
+
+  .featured-film-card-date {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .featured-film-card-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .featured-film-card-title.planet-carlos-ff-description {
+    font-size: 27px;
+    line-height: 34px;
+  }
+
+  .featured-film-card-title.crappy-birthday-ff-title.cb-title-mobile {
+    display: none;
+  }
+
+  .image-7 {
+    width: 240px;
+    height: 350px;
+  }
+
+  .film-screenshots-small {
+    height: 50px;
+  }
+
+  .div-block-9.evie-feature-card {
+    padding-top: 21px;
+  }
+
+  .div-block-9.ivote-ff-card {
+    padding-top: 25px;
+  }
+
+  .featured-film-card-info {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .grid-8 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .heading-4.featured-films-title-subhomepage {
+    max-width: 650px;
+  }
+
+  .featured-film-card-images-wrapper.ivote-card-images-wrapper {
+    margin-top: 15px;
+  }
+
+  .code-for-film-grid {
+    display: none;
+  }
+
+  .variety-article-element {
+    left: auto;
+  }
+
+  .grid-9 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .div-block-14 {
+    display: inline-block;
+    width: 600px;
+  }
+
+  .slide-4 {
+    width: 600px;
+  }
+
+  .mask-2 {
+    width: 600px;
+  }
+
+  .movie-description {
+    display: none;
+  }
+
+  .movie-description.the-god-chair-description {
+    display: none;
+  }
+
+  .movie-description.ivote-description {
+    display: none;
+  }
+
+  .script-for-popup-navbar {
+    display: none;
+  }
+
+  .featured-films-title-homepage {
+    max-width: 645px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 31px;
+  }
+
+  .film-description-section {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+
+  .cast-and-crew-section {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+
+  .text-block-18 {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .actor-hyperlink {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .actor-hyperlink.adler-link-one {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .actor-hyperlink.roberts-link {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .actor-hyperlink.lauria-link {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .actor-hyperlink.lawrence-link {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .film-grid-container {
+    max-width: 645px;
+  }
+
+  .div-block-25 {
+    max-width: 650px;
+  }
+
+  .plan-card-button-row {
+    margin-top: 11%;
+    font-size: 12px;
+  }
+
+  .text-block-20 {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+
+  .text-block-21 {
+    font-family: 'Brandon re', sans-serif;
+    font-size: 22px;
+    line-height: 44px;
+  }
+
+  .text-block-21.distributor-description {
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 22px;
+    line-height: 44px;
+  }
+
+  .text-block-21.audience-description {
+    font-size: 25px;
+  }
+
+  .text-block-21.how-it-works-description {
+    padding-top: 114px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 28px;
+    line-height: 52px;
+  }
+
+  .text-block-21.how-it-works-description.oot-description {
+    padding-top: 37%;
+  }
+
+  .text-block-21.how-it-works-description.theatrical-distribution-description {
+    padding-top: 38%;
+  }
+
+  .select-plan-button {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 25px;
+    line-height: 42px;
+  }
+
+  .plan-title-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .mobile-buttons {
+    display: block;
+  }
+
+  .grid-12 {
+    height: 370px;
+    padding-right: 40px;
+    padding-left: 40px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .div-block-29 {
+    height: 100%;
+    background-image: url('../images/business-image-cropped-2.png');
+    background-position: 65% 50%;
+    background-size: cover;
+  }
+
+  .div-block-29.acquisition-mobile-image {
+    background-image: url('../images/acquisition-period.png');
+  }
+
+  .div-block-30 {
+    height: 100%;
+    background-image: url('../images/filmmaker-image-cropped-2.png');
+    background-position: 50% 0%;
+    background-size: cover;
+  }
+
+  .div-block-30.oot-mobile-image {
+    background-image: url('../images/oot-distribution.png');
+  }
+
+  .div-block-31 {
+    height: 100%;
+    background-image: url('../images/audience-image-cropped-2.png');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  .div-block-31.theatrical-mobile-image {
+    background-image: url('../images/theatrical-distribution.png');
+  }
+
+  .arrow-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .grid-13 {
+    padding-right: 40px;
+    padding-left: 40px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .mobile-plan-titles {
+    margin-bottom: 10px;
+    font-family: Brandon, sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .mobile-plan-titles.mobile-how-it-works-titles {
+    color: rgba(51, 62, 81, 0.89);
+    font-size: 2.3vw;
+    line-height: 27px;
+    cursor: default;
+  }
+
+  .mobile-plan-title-grid {
+    display: block;
+  }
+
+  .link-block-3 {
+    cursor: pointer;
+  }
+
+  .link-block-4 {
+    cursor: pointer;
+  }
+
+  .link-block-5 {
+    cursor: pointer;
+  }
+
+  .menu-button {
+    z-index: 5;
+  }
+
+  .menu-button.w--open {
+    background-color: hsla(0, 0%, 78.4%, 0);
+  }
+
+  .text-block-22 {
+    font-size: 15px;
+    line-height: 50px;
+  }
+
+  .text-block-23 {
+    font-size: 15px;
+    line-height: 50px;
+  }
+
+  .grid-15 {
+    width: 650px;
+    height: 350px;
+    -ms-grid-columns: 240px auto;
+    grid-template-columns: 240px auto;
+  }
+
+  .slider-4 {
+    display: inline-block;
+    width: 670px;
+  }
+
+  .right-arrow-2 {
+    left: 637px;
+  }
+
+  .nav-menu {
+    margin-top: 0px;
+    padding-bottom: 12px;
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 3px -1px #000;
+  }
+
+  .grid-16 {
+    overflow: visible;
+    max-width: 100%;
+  }
+
+  .text-block-24 {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+  }
+
+  .grid-17 {
+    margin-top: 104px;
+  }
+
+  .text-block-25 {
+    position: absolute;
+    left: 70px;
+    top: 32px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .text-block-26 {
+    position: absolute;
+    left: 70px;
+    top: 85px;
+    font-size: 29px;
+    line-height: 36px;
+  }
+
+  .text-block-27 {
+    width: 92%;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .text-block-28 {
+    font-size: 18px;
+  }
+
+  .div-block-34 {
+    top: 51px;
+    right: 70px;
+    display: none;
+  }
+
+  .div-block-39 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .div-block-40 {
+    display: block;
+    text-align: center;
+  }
+
+  .right-arrow-3 {
+    left: 561px;
+  }
+
+  .left-arrow-2 {
+    left: -38px;
+  }
+
+  .rate-this-film-popup {
+    left: 11.734px;
+    top: 41px;
+  }
+
+  .nav-menu-2 {
+    position: fixed;
+    top: 0px;
+    padding-bottom: 13px;
+    background-color: #333e51;
+  }
+
+  .image-35 {
+    width: 90%;
+  }
+
+  .pop-up-content-grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .account-creation-wrapper {
+    overflow: visible;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .cancel-button-wrapper {
+    left: 91%;
+  }
+
+  .benefits-list-title {
+    margin-top: 40px;
+  }
+
+  .sign-up-slider {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+  }
+
+  .slider-5 {
+    height: auto;
+  }
+
+  .create-new-account-title {
+    display: inline-block;
+  }
+
+  .image-37 {
+    width: 40px;
+    margin-right: 20px;
+    padding-bottom: 8px;
+  }
+
+  .screen-anytime-title {
+    margin-top: 10px;
+  }
+
+  .submit-button {
+    padding-right: 100px;
+    padding-left: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(51, 62, 81, 0.29);
+    background-color: #fff;
+    color: #333e51;
+  }
+
+  .form-input.form-input-half-row.last-half {
+    width: 48%;
+    float: right;
+  }
+
+  .form-input.form-input-half-row.billing-input {
+    width: 49%;
+    margin-right: 0px;
+  }
+
+  .form-input.form-input-half-row.create-account-input-first-name {
+    width: 48%;
+    margin-right: 1%;
+  }
+
+  .show-password-toggle-button {
+    left: auto;
+    top: 199px;
+    right: 76px;
+  }
+
+  .text-block-33 {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+
+  .slide-8 {
+    overflow: visible;
+  }
+
+  .mask-5 {
+    overflow: hidden;
+  }
+
+  .div-block-50 {
+    position: absolute;
+    left: auto;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    background-color: #fff;
+  }
+
+  .mask-6 {
+    overflow: visible;
+    height: auto;
+  }
+
+  .divider-line {
+    display: inline-block;
+    width: 93%;
+    height: 0.2px;
+    padding-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.22);
+  }
+
+  .divider-line-wrapper {
+    margin-top: 42px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .submit-button-4.log-out-button {
+    width: 42%;
+    color: #333e51;
+    text-align: center;
+  }
+
+  .submit-button-4.cancel-subscription-button {
+    width: 42%;
+    text-align: center;
+  }
+
+  .container-4 {
+    max-width: 610px;
+  }
+
+  .sign-up-text-field {
+    width: 240px;
+  }
+
+  .grid-20 {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .submit-your-film-title {
+    font-size: 32px;
+  }
+
+  .text-block-42 {
+    font-size: 20px;
+  }
+
+  .container-5 {
+    max-width: 690px;
+  }
+
+  .grid-21 {
+    grid-column-gap: 11px;
+  }
+
+  .grid-21.submission-type-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .submission-steps-card {
+    width: 300px;
+  }
+
+  .text-block-45 {
+    font-size: 31px;
+  }
+
+  .text-block-46 {
+    margin-bottom: 30px;
+  }
+
+  .menu-button-2 {
+    color: #fff;
+  }
+
+  .div-block-63 {
+    height: auto;
+  }
+
+  .heading-6 {
+    margin-top: 74px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .heading-7 {
+    margin-bottom: 16px;
+    font-size: 32px;
+  }
+
+  .image-43 {
+    height: 40px;
+    margin-top: 0px;
+  }
+
+  .image-44 {
+    height: 40px;
+    margin-top: 9px;
+  }
+
+  .image-45 {
+    height: 100%;
+  }
+
+  .tabs-content {
+    height: 440px;
+  }
+
+  .image-46 {
+    display: none;
+  }
+
+  .div-block-67 {
+    overflow: hidden;
+  }
+
+  .image-47 {
+    max-width: none;
+  }
+
+  .image-49 {
+    display: block;
+  }
+
+  .grid-22 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-items: end;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .film-grid {
+    padding-right: 20px;
+    padding-left: 20px;
+    grid-column-gap: 30px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tab-pane-tab-1 {
+    background-position: 100% 0%;
+    background-size: 160%;
+  }
+
+  .text-block-2 {
+    width: 62%;
+    margin-top: 3px;
+    margin-bottom: 13px;
+    font-size: 29px;
+    letter-spacing: 1.3px;
+  }
+
+  .button-2 {
+    margin-top: 2%;
+  }
+
+  .image-2 {
+    margin-top: -8px;
+  }
+
+  .text-block-3 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .text-block-4 {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .tab-pane-tab-2 {
+    background-position: 80% 0px;
+    background-size: auto 110%;
+  }
+
+  .tab-pane-tab-3 {
+    background-position: 70% 60%;
+    background-size: auto 40%;
+  }
+
+  .div-block-3 {
+    margin-top: 48px;
+  }
+
+  .div-block-4 {
+    margin-top: -283px;
+  }
+
+  .text-block-5 {
+    font-size: 14px;
+  }
+
+  .heading {
+    width: 57%;
+    margin-top: 14px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+  }
+
+  .movie-image {
+    width: 150px;
+    height: 225px;
+  }
+
+  .image-6 {
+    padding-top: 1%;
+  }
+
+  .heading-2.select-your-plan-heading {
+    font-size: 25px;
+  }
+
+  .div-block-5.wrapper-how-it-works-mobile-cards {
+    width: 400px;
+    max-width: 700px;
+  }
+
+  .grid-2 {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+
+  .grid-2.how-it-works-grid {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .hidden-description {
+    padding-top: 40px;
+  }
+
+  .select-plan-title-text.how-it-works-title-text {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .grid-5 {
+    grid-column-gap: 13px;
+  }
+
+  .grid-5.lil-buck-title-grid {
+    grid-column-gap: 4px;
+  }
+
+  .footer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .grid-6 {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .text-block-7 {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.9px;
+  }
+
+  .text-block-8 {
+    font-size: 17px;
+  }
+
+  .featured-film-card-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .featured-film-card-description.ivote-description {
+    margin-top: 21px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .featured-film-card-description.lil-buck-decription {
+    width: 190px;
+    margin-top: 21px;
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .featured-film-card-description.planet-carlos-ff-description {
+    margin-top: 21px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .featured-film-card-description.caroline-ff-description {
+    margin-top: 21px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .featured-film-card-date {
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  .featured-film-card-title {
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  .featured-film-card-title.lil-buck-feature-film-title {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .featured-film-card-title.planet-carlos-ff-description {
+    font-size: 23px;
+    line-height: 23px;
+  }
+
+  .featured-film-card-title.crappy-birthday-ff-title {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .featured-film-card-title.crappy-birthday-ff-title.cb-title-desktop {
+    display: none;
+  }
+
+  .featured-film-card-title.crappy-birthday-ff-title.cb-title-mobile {
+    display: block;
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  .image-7 {
+    width: 165px;
+    height: 265px;
+  }
+
+  .div-block-8 {
+    padding-left: 2px;
+  }
+
+  .div-block-9 {
+    padding: 16px 25px 0% 4px;
+  }
+
+  .div-block-9.evie-feature-card {
+    padding-top: 16px;
+    padding-right: 14px;
+  }
+
+  .div-block-9.caroline-ff-card {
+    padding-top: 22px;
+  }
+
+  .div-block-9.ivote-ff-card {
+    padding-top: 15px;
+  }
+
+  .featured-film-card-info {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .featured-film-card-info.ivote-stats-feature-film {
+    margin-top: 18px;
+    font-size: 16px;
+  }
+
+  .featured-film-card-info.lil-buck-stats-ff {
+    margin-top: 18px;
+    font-size: 16px;
+  }
+
+  .featured-film-card-info.caroline-ff-stats {
+    margin-top: 18px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .featured-film-card-info.planet-carlos-ff-stats {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .section-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .grid-8 {
+    padding-top: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-column-gap: 16px;
+    grid-row-gap: 15px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .heading-4.featured-films-title-subhomepage {
+    padding-left: 8%;
+  }
+
+  .heading-4.recommended-films-title-subhomepage {
+    max-width: 650px;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .image-12 {
+    width: 16px;
+    height: 20px;
+  }
+
+  .featured-film-card-images-wrapper {
+    display: none;
+  }
+
+  .variety-article-element {
+    left: -108px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .grid-9 {
+    width: 350px;
+    height: 130px;
+    -ms-grid-columns: 128px auto;
+    grid-template-columns: 128px auto;
+  }
+
+  .featured-article-description {
+    font-size: 11px;
+  }
+
+  .featured-article-description.mulan-description {
+    padding-top: 1px;
+  }
+
+  .div-block-15 {
+    padding-top: 6px;
+    padding-left: 8px;
+  }
+
+  .featured-article-title {
+    font-size: 15px;
+  }
+
+  .mask-2 {
+    width: 400px;
+  }
+
+  .image-14 {
+    width: 100%;
+    height: 130px;
+  }
+
+  .featured-films-title-homepage {
+    max-width: 330px;
+    padding-top: 20px;
+  }
+
+  .play-button-wrapper-div {
+    width: 40px;
+    height: 40px;
+    padding-top: 9px;
+  }
+
+  .film-description-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .share-film-button {
+    display: block;
+    text-align: center;
+  }
+
+  .image-15 {
+    height: auto;
+  }
+
+  .section-3 {
+    height: auto;
+    padding-top: 60px;
+  }
+
+  .image-16 {
+    width: 100%;
+    height: auto;
+  }
+
+  .div-block-25 {
+    width: 100%;
+    max-width: 645px;
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+
+  .plan-card-title-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .plan-card-button-row {
+    margin-top: 9%;
+  }
+
+  .image-17 {
+    width: 20%;
+  }
+
+  .text-block-20 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .text-block-21 {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .text-block-21.distributor-description {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .text-block-21.audience-description {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .text-block-21.how-it-works-description {
+    padding-top: 35px;
+    font-family: Brandon, sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 2px;
+  }
+
+  .text-block-21.how-it-works-description.oot-description {
+    padding-top: 83px;
+  }
+
+  .text-block-21.how-it-works-description.theatrical-distribution-description {
+    padding-top: 90px;
+  }
+
+  .select-plan-button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .grid-11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .grid-12 {
+    height: 290px;
+  }
+
+  .mobile-plan-titles {
+    font-size: 17px;
+  }
+
+  .text-block-22 {
+    font-size: 14px;
+  }
+
+  .text-block-23 {
+    font-size: 14px;
+  }
+
+  .grid-15 {
+    width: 400px;
+    height: 265px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .slider-4 {
+    width: 420px;
+  }
+
+  .right-arrow-2 {
+    left: 387px;
+  }
+
+  .text-block-25 {
+    left: 40px;
+  }
+
+  .text-block-26 {
+    left: 40px;
+  }
+
+  .text-block-27 {
+    width: 100%;
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  .text-block-28 {
+    font-size: 15px;
+  }
+
+  .div-block-34 {
+    right: 40px;
+  }
+
+  .slide-7 {
+    width: 100%;
+  }
+
+  .image-24 {
+    width: 180px;
+    height: 280px;
+  }
+
+  .div-block-38 {
+    padding-left: 15px;
+  }
+
+  .div-block-39 {
+    margin-top: 10px;
+  }
+
+  .div-block-40 {
+    display: inline-block;
+  }
+
+  .right-arrow-3 {
+    left: 360px;
+  }
+
+  .left-arrow-2 {
+    left: -43px;
+  }
+
+  .social-link {
+    width: 23px;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+
+  .image-31 {
+    width: 102px;
+  }
+
+  .div-block-46 {
+    top: 44%;
+  }
+
+  .image-32 {
+    width: 100px;
+  }
+
+  .pop-up-content-grid {
+    padding-bottom: 40px;
+  }
+
+  .cancel-button-wrapper {
+    left: 88%;
+    top: 13px;
+  }
+
+  .benefits-list-title {
+    margin-top: 10px;
+  }
+
+  .form-input.form-input-half-row.create-account-input-first-name {
+    margin-right: 1%;
+  }
+
+  .show-password-toggle-button {
+    right: 75px;
+  }
+
+  .div-block-56 {
+    display: none;
+  }
+
+  .fixed-backdrop-filmmaker-signup {
+    z-index: -5;
+    background-position: -250px 0px;
+  }
+
+  .section-10 {
+    z-index: 6;
+  }
+
+  .div-block-61 {
+    overflow: visible;
+    margin-right: 0px;
+  }
+
+  .sign-up-card-wrapper {
+    overflow: visible;
+    margin-left: 0px;
+  }
+
+  .sign-up-text-field {
+    overflow: auto;
+    width: 240px;
+  }
+
+  .grid-20 {
+    overflow: visible;
+  }
+
+  .form-2 {
+    overflow: visible;
+  }
+
+  .body-5 {
+    overflow: visible;
+    background-color: hsla(0, 0%, 100%, 0);
+    background-image: url('../images/filmmaker-sign-up.png');
+    background-position: 0px 0px;
+    background-size: auto;
+  }
+
+  .contact-filmmaker-button {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .sign-in-container {
+    max-width: 430px;
+  }
+
+  .text-block-42 {
+    font-size: 19px;
+  }
+
+  .container-5 {
+    max-width: 390px;
+  }
+
+  .grid-21 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .steps-card-title {
+    margin-bottom: 30px;
+  }
+
+  .heading-6 {
+    max-width: 240px;
+    margin-top: 73px;
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  .heading-7 {
+    max-width: 250px;
+    font-size: 26px;
+    line-height: 37px;
+  }
+
+  .image-43 {
+    margin-top: 259px;
+  }
+
+  .image-44 {
+    margin-top: 239px;
+  }
+
+  .div-block-65 {
+    overflow: hidden;
+    float: right;
+  }
+
+  .image-45 {
+    height: 100%;
+    max-width: none;
+    margin-left: -159px;
+  }
+
+  .image-46 {
+    display: none;
+    margin-left: 0%;
+  }
+
+  .image-47 {
+    margin-left: 20%;
+  }
+
+  .image-49 {
+    display: block;
+    margin-right: -38px;
+  }
+
+  .grid-22 {
+    width: 100%;
+    height: 100%;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .three-different-tabs {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .three-different-tabs.w--current {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .three-different-tabs.distributors-tab {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .film-grid {
+    padding-right: 0px;
+    padding-left: 0px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+  }
+
+  .film-entry {
+    width: 135px;
+  }
+
+  .movie-div-wrapper {
+    width: 135px;
+  }
+
+  .button {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  .button.mobile-sign-in {
+    display: block;
+  }
+
+  .image {
+    position: relative;
+    left: 14px;
+    top: 9px;
+    display: block;
+    width: 21px;
+  }
+
+  .brand {
+    display: block;
+  }
+
+  .brand.brand-mobile {
+    display: block;
+  }
+
+  .tab-pane-tab-1 {
+    height: 640px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(null), to(null));
+    background-image: linear-gradient(180deg, null, null);
+  }
+
+  .text-block-2 {
+    width: auto;
+    margin-top: 13px;
+    margin-bottom: 23px;
+    font-family: 'Brandon bld', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .text-block-2.white-subtitle {
+    width: 76%;
+    max-width: 452px;
+  }
+
+  .button-2 {
+    margin-top: 2px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 11px;
+    line-height: 19px;
+  }
+
+  .button-2.action-button-white {
+    font-size: 11px;
+  }
+
+  .button-2.action-button-white.action-button-blue {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+
+  .image-2 {
+    width: 20px;
+    margin-top: -6px;
+  }
+
+  .text-block-3 {
+    padding-top: 2px;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.6px;
+  }
+
+  .text-block-4 {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+  }
+
+  .tab-pane-tab-2 {
+    background-position: 80% 0%;
+    background-size: auto 100%;
+  }
+
+  .tab-pane-tab-3 {
+    background-position: 70% 100%;
+    background-size: 720px;
+  }
+
+  .navbar {
+    padding-left: 20px;
+  }
+
+  .navbar.navbar-home {
+    height: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: hsla(0, 0%, 100%, 0);
+  }
+
+  .navbar.account-navbar {
+    background-color: #fff;
+  }
+
+  .div-block-3 {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .div-block-4 {
+    position: static;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .text-block-5 {
+    font-size: 11px;
+    letter-spacing: 0.3px;
+  }
+
+  .heading {
+    width: 62%;
+    margin-top: 12px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .movie-image {
+    width: 135px;
+    height: 190px;
+  }
+
+  .image-6 {
+    width: 90%;
+    margin-top: 21px;
+    padding-top: 0%;
+  }
+
+  .image-6.fuel-your-passion-white-text {
+    width: 90%;
+    margin-top: 0px;
+    padding-top: 2vh;
+  }
+
+  .grid {
+    top: -34px;
+    height: 430px;
+    padding-top: 0px;
+    padding-right: 8%;
+    padding-left: 8%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-link.home-nav-link {
+    display: block;
+    margin: 14px 0px 0px;
+    font-size: 16px;
+  }
+
+  .nav-link.account-navbar-link.transparent-link {
+    color: #333e51;
+  }
+
+  .nav-link-2 {
+    display: block;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-link-2.home-nav-link {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .nav-link-2.account-navbar-link.transparent-link {
+    color: #333e51;
+  }
+
+  .section {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .heading-2.select-your-plan-heading {
+    margin-bottom: 20px;
+    font-size: 19px;
+  }
+
+  .div-block-5 {
+    padding-right: 0vw;
+    padding-left: 0vw;
+  }
+
+  .div-block-5.wrapper-how-it-works-mobile-cards {
+    width: 280px;
+  }
+
+  .div-block-5.select-plan-card-wrapper-mobile {
+    width: 320px;
+  }
+
+  .grid-2 {
+    padding-right: 0px;
+    padding-left: 0px;
+    grid-row-gap: 26px;
+  }
+
+  .grid-2.how-it-works-grid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .grid-2.select-membership-mobile-card-grid {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .hidden-description {
+    padding-top: 25px;
+    box-shadow: 1px 1px 9px -5px #000;
+  }
+
+  .grid-5 {
+    grid-column-gap: 8px;
+    -ms-grid-rows: minmax(50px, 50px);
+    grid-template-rows: minmax(50px, 50px);
+  }
+
+  .grid-5.lil-buck-title-grid {
+    grid-column-gap: 0px;
+  }
+
+  .grid-5.planet-carlos-title-grid {
+    grid-column-gap: 0px;
+  }
+
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .grid-6 {
+    -ms-grid-columns: 0.75fr 0.75fr;
+    grid-template-columns: 0.75fr 0.75fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .grid-7 {
+    grid-column-gap: 0px;
+  }
+
+  .text-block-7 {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .text-block-8 {
+    padding-left: 5px;
+    font-size: 13px;
+  }
+
+  .featured-film-card-description {
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .featured-film-card-description.ivote-description {
+    width: 122px;
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .featured-film-card-description.lil-buck-decription {
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .featured-film-card-description.planet-carlos-ff-description {
+    width: 103px;
+    margin-top: 7px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .featured-film-card-description.caroline-ff-description {
+    width: auto;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0px;
+  }
+
+  .featured-film-card-description.ff-card-ivote {
+    width: 127px;
+  }
+
+  .featured-film-card-date {
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .featured-film-card-title {
+    padding-top: 0px;
+    font-size: 15px;
+    line-height: 13px;
+  }
+
+  .featured-film-card-title.lil-buck-feature-film-title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .featured-film-card-title.planet-carlos-ff-description {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .featured-film-card-title.crappy-birthday-ff-title {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .featured-film-card-title.crappy-birthday-ff-title.cb-title-desktop {
+    display: none;
+  }
+
+  .image-7 {
+    width: 133px;
+    height: 200px;
+  }
+
+  .div-block-8 {
+    padding-left: 0px;
+  }
+
+  .div-block-9 {
+    padding-right: 19px;
+    padding-left: 15px;
+  }
+
+  .div-block-9.evie-feature-card {
+    padding-top: 17px;
+    padding-right: 10px;
+  }
+
+  .div-block-9.caroline-ff-card {
+    padding-top: 22px;
+    padding-right: 19px;
+  }
+
+  .div-block-9.ivote-ff-card {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .div-block-9.planet-carlos-card {
+    padding-top: 14px;
+  }
+
+  .featured-film-card-info {
+    margin-top: 7px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .featured-film-card-info.ivote-stats-feature-film {
+    margin-top: 0px;
+    font-size: 11px;
+    line-height: 24px;
+  }
+
+  .featured-film-card-info.lil-buck-stats-ff {
+    margin-top: 2px;
+    font-size: 10px;
+    line-height: 23px;
+  }
+
+  .featured-film-card-info.caroline-ff-stats {
+    margin-top: 11px;
+    font-size: 11px;
+    line-height: 22px;
+  }
+
+  .featured-film-card-info.planet-carlos-ff-stats {
+    margin-top: 13px;
+    font-size: 9px;
+    line-height: 17px;
+  }
+
+  .section-2 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .grid-8 {
+    padding-bottom: 10px;
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .slider-2 {
+    padding-left: 9px;
+  }
+
+  .heading-4 {
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 2px;
+  }
+
+  .heading-4.featured-films-title-subhomepage {
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 31px;
+  }
+
+  .heading-4.recc-films-title {
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+
+  .heading-4.recommended-films-title-subhomepage {
+    padding-right: 0%;
+    padding-left: 20px;
+  }
+
+  .div-block-10 {
+    padding-top: 0px;
+  }
+
+  .div-block-11 {
+    padding-left: 0%;
+  }
+
+  .image-12 {
+    width: 12px;
+    height: 13px;
+    margin-left: 4px;
+  }
+
+  .navbar-username {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .code-for-film-grid {
+    display: none;
+  }
+
+  .variety-article-element {
+    left: 0px;
+  }
+
+  .grid-9 {
+    width: 250px;
+    height: 115px;
+    grid-column-gap: 7px;
+    -ms-grid-columns: 105px auto;
+    grid-template-columns: 105px auto;
+  }
+
+  .div-block-14 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .featured-article-description {
+    padding-top: 3px;
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  .featured-article-description.mulan-description {
+    overflow: hidden;
+    padding-top: 4px;
+    font-size: 10px;
+  }
+
+  .featured-article-description.directors-variety-elem {
+    height: 20px;
+  }
+
+  .div-block-15 {
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
+  .featured-article-title {
+    padding-top: 8px;
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+  .slide-4 {
+    left: -28px;
+    width: 300px;
+  }
+
+  .mask-2 {
+    width: 300px;
+  }
+
+  .image-14 {
+    height: 116px;
+  }
+
+  .featured-articles-title-wrapper {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .featured-films-title-homepage {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .play-button-wrapper-div {
+    width: 31px;
+    height: 31px;
+    padding-top: 4px;
+  }
+
+  .film-description-section {
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .cast-and-crew-section {
+    padding: 20px 15px;
+  }
+
+  .cast-and-crew-title {
+    font-size: 18px;
+  }
+
+  .text-block-18 {
+    font-size: 15px;
+  }
+
+  .actor-hyperlink {
+    display: block;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+
+  .actor-hyperlink.adler-link-one {
+    font-size: 15px;
+  }
+
+  .actor-hyperlink.roberts-link {
+    font-size: 15px;
+  }
+
+  .actor-hyperlink.lauria-link {
+    display: block;
+    font-size: 15px;
+  }
+
+  .actor-hyperlink.lawrence-link {
+    display: block;
+    font-size: 15px;
+  }
+
+  .actor-hyperlink.adler-link-two {
+    font-size: 15px;
+  }
+
+  .text-block-19 {
+    display: none;
+  }
+
+  .text-block-19.cast-and-crew-line {
+    display: none;
+  }
+
+  .share-film-wrapper {
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .div-block-25 {
+    width: 320px;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .div-block-27 {
+    margin-top: 0%;
+  }
+
+  .image-17 {
+    width: 19%;
+  }
+
+  .text-block-20 {
+    font-size: 18px;
+  }
+
+  .text-block-21 {
+    padding-right: 25px;
+    padding-left: 25px;
+    color: rgba(51, 62, 81, 0.81);
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .text-block-21.distributor-description {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .text-block-21.audience-description {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .text-block-21.how-it-works-description {
+    padding-top: 64px;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  .text-block-21.how-it-works-description.oot-description {
+    padding-top: 75px;
+  }
+
+  .text-block-21.how-it-works-description.theatrical-distribution-description {
+    padding-top: 86px;
+  }
+
+  .select-plan-button {
+    padding-right: 4vw;
+    padding-left: 4vw;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .grid-12 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .div-block-30 {
+    background-position: 63% 0%;
+  }
+
+  .div-block-30.oot-mobile-image {
+    background-position: 49% 0%;
+  }
+
+  .div-block-31.theatrical-mobile-image {
+    background-position: 18% 50%;
+  }
+
+  .grid-13 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .mobile-plan-titles {
+    font-size: 13px;
+  }
+
+  .mobile-plan-titles.mobile-how-it-works-titles {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .menu-button {
+    padding-right: 38px;
+  }
+
+  .menu-button.w--open {
+    position: fixed;
+    left: 0px;
+    z-index: 3;
+    width: 100vw;
+    background-color: #333e51;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    background-clip: border-box;
+  }
+
+  .text-block-22 {
+    font-size: 11px;
+    letter-spacing: 0.3px;
+  }
+
+  .text-block-23 {
+    font-size: 11px;
+    letter-spacing: 0.3px;
+  }
+
+  .section-5 {
+    position: relative;
+  }
+
+  .grid-14 {
+    width: 294px;
+    height: 140px;
+  }
+
+  .grid-15 {
+    width: 290px;
+    height: 200px;
+    margin-left: 0px;
+    box-shadow: 0 1px 4px -1px #9e9e9e;
+  }
+
+  .slide-5 {
+    width: 275px;
+  }
+
+  .mask-4 {
+    width: 295px;
+  }
+
+  .slide-6 {
+    width: 275px;
+  }
+
+  .slider-4 {
+    width: 320px;
+    padding-left: 10px;
+  }
+
+  .left-arrow {
+    left: 9px;
+    top: 1px;
+    width: 20px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .image-18 {
+    width: 9px;
+    margin-top: 23px;
+    margin-left: 4px;
+    opacity: 0.8;
+  }
+
+  .right-arrow-2 {
+    left: 286px;
+    top: 1px;
+    width: 20px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .image-19 {
+    width: 9px;
+    margin-top: 23px;
+    margin-left: 6px;
+    clear: left;
+    opacity: 0.8;
+  }
+
+  .nav-menu {
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 #000;
+    text-align: left;
+  }
+
+  .text-block-24 {
+    top: 34px;
+    right: 10px;
+    font-size: 17px;
+  }
+
+  .grid-17 {
+    margin-top: 88px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .text-block-25 {
+    left: 15px;
+    max-width: 170px;
+    padding-top: 0px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .text-block-26 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 14px;
+    font-size: 19px;
+    line-height: 21px;
+  }
+
+  .text-block-26.ivote-year-sc-room {
+    position: absolute;
+    left: 15px;
+    top: 73px;
+  }
+
+  .image-20 {
+    width: 102px;
+    margin-top: 6px;
+    padding-right: 8px;
+  }
+
+  .div-block-34 {
+    top: 32px;
+    right: 15px;
+  }
+
+  .text-block-29 {
+    display: none;
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+
+  .text-block-30 {
+    display: block;
+  }
+
+  .div-block-35 {
+    padding-left: 8px;
+  }
+
+  .button-3 {
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 9px;
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
+
+  .div-block-36 {
+    display: inline-block;
+    margin-top: 16px;
+    padding-left: 6px;
+    text-align: center;
+  }
+
+  .div-block-37 {
+    left: 53px;
+    z-index: -1;
+  }
+
+  .slide-7 {
+    width: 290px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .div-block-38 {
+    padding-left: 0px;
+  }
+
+  .div-block-39 {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .right-arrow-3 {
+    left: 265px;
+    width: 30px;
+  }
+
+  .left-arrow-2 {
+    left: -9px;
+    display: none;
+    width: 50px;
+  }
+
+  .link-block-6 {
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .link-block-6.w--current {
+    text-align: left;
+  }
+
+  .code-for-popup {
+    display: none;
+  }
+
+  .social-link {
+    width: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .div-block-42 {
+    margin-left: 0px;
+  }
+
+  .rate-this-film-popup {
+    left: 8px;
+    top: 40px;
+    width: 110px;
+    height: 24px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .text-block-31 {
+    position: relative;
+    top: 0px;
+    padding-top: 0px;
+    padding-right: 12px;
+    font-size: 8px;
+    line-height: 24px;
+  }
+
+  .text-block-32 {
+    left: 91px;
+    top: -21px;
+  }
+
+  .div-block-44 {
+    left: 47px;
+  }
+
+  .image-31 {
+    width: 67px;
+  }
+
+  .div-block-46 {
+    top: 49%;
+  }
+
+  .html-embed {
+    display: none;
+  }
+
+  .nav-menu-2 {
+    position: relative;
+    top: 0px;
+    z-index: 4;
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+  }
+
+  .icon-5 {
+    text-align: right;
+  }
+
+  .image-32 {
+    width: 80px;
+    margin-top: -6px;
+    margin-left: 10px;
+  }
+
+  .image-33 {
+    width: 85px;
+    margin-top: -5px;
+  }
+
+  .image-33.account-info-logo.mobile-account-signup-logo {
+    display: block;
+    margin-top: 2px;
+  }
+
+  .div-block-48 {
+    display: inline-block;
+  }
+
+  .pop-up-header {
+    padding: 20px 40px;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 3px;
+  }
+
+  .pop-up-content-grid {
+    padding-top: 0px;
+  }
+
+  .account-creation-wrapper {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .cancel-button-wrapper {
+    left: 85%;
+    top: 9px;
+    width: 30px;
+  }
+
+  .cancel-button {
+    width: 17px;
+  }
+
+  .benefits-and-image-grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .benefits-list {
+    padding-left: 20px;
+  }
+
+  .benefits-list-title {
+    text-align: center;
+  }
+
+  .create-new-account-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .image-37 {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .form-input.form-input-half-row.last-half {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
+  }
+
+  .form-input.form-input-half-row.last-half.billing-input {
+    display: block;
+    margin-bottom: 14px;
+  }
+
+  .form-input.form-input-half-row.billing-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .form-input.form-input-half-row.create-account-input-first-name {
+    display: block;
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .form-input.billing-input {
+    margin-bottom: 14px;
+  }
+
+  .show-password-toggle-button {
+    top: 275px;
+    right: 12px;
+  }
+
+  .slide-8 {
+    padding-top: 20px;
+  }
+
+  .mask-5 {
+    overflow: hidden;
+  }
+
+  .billing-information-wrapper {
+    overflow: visible;
+    height: 610px;
+  }
+
+  .billing-information-title {
+    padding-top: 10px;
+  }
+
+  .start-membership-button-wrapper {
+    text-align: center;
+  }
+
+  .monthly-billing-button {
+    padding-left: 8px;
+  }
+
+  .text-block-34.monthly-button-text {
+    margin-left: 5px;
+  }
+
+  .text-block-34.annual-button-text {
+    margin-left: 5px;
+  }
+
+  .annual-billing-button {
+    padding-left: 5px;
+    float: right;
+  }
+
+  .text-block-35 {
+    position: relative;
+    left: auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .mask-6 {
+    overflow: hidden;
+  }
+
+  .divider-line-wrapper {
+    margin-top: 60px;
+  }
+
+  .slide-9 {
+    overflow: visible;
+    max-height: 540px;
+  }
+
+  .welcome-text {
+    font-size: 40px;
+  }
+
+  .image-41 {
+    width: 80px;
+  }
+
+  .button-4 {
+    padding: 11px 30px;
+  }
+
+  .navbar-logo-mobile-menu {
+    position: static;
+    left: 97px;
+    top: 16px;
+    z-index: 23;
+    display: inline-block;
+  }
+
+  .div-block-56 {
+    position: fixed;
+    top: 20px;
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .button-5 {
+    display: block;
+    background-color: #333e51;
+    color: #fff;
+  }
+
+  .account-info-container {
+    max-width: 280px;
+  }
+
+  .account-info-card {
+    position: relative;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .account-info-card-title {
+    display: block;
+    margin-bottom: 11px;
+    padding-top: 3px;
+  }
+
+  .account-info-text-field {
+    width: 230px;
+    border-width: 0.5px;
+    border-color: #ededed;
+    box-shadow: 0 0 1px -2px rgba(0, 0, 0, 0.23);
+  }
+
+  .submit-button-4 {
+    width: 100%;
+    margin-bottom: 21px;
+  }
+
+  .submit-button-4.log-out-button {
+    width: 43%;
+    height: 66px;
+    color: #333e51;
+    line-height: 42px;
+  }
+
+  .submit-button-4.cancel-subscription-button {
+    width: 43%;
+    height: 66px;
+  }
+
+  .account-details-grid {
+    display: inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .account-details-grid-title {
+    margin-top: 15px;
+    font-family: 'Brandon med', sans-serif;
+  }
+
+  .account-details-grid-label {
+    text-align: left;
+  }
+
+  .div-block-59 {
+    padding-right: 10px;
+    padding-left: 10px;
+    float: none;
+  }
+
+  .link-block-13 {
+    position: absolute;
+    left: 193px;
+    top: 23.9972px;
+    float: none;
+  }
+
+  .fixed-backdrop-filmmaker-signup {
+    background-position: -320px 0px;
+  }
+
+  .section-10 {
+    padding-bottom: 20px;
+  }
+
+  .container-4 {
+    max-width: 270px;
+  }
+
+  .sign-up-card {
+    width: 270px;
+  }
+
+  .sign-up-card-wrapper {
+    width: 300px;
+  }
+
+  .sign-up-card-title {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+
+  .sign-up-submit-button {
+    -webkit-transition: background-color 200ms ease-out, box-shadow 200ms ease-out;
+    transition: background-color 200ms ease-out, box-shadow 200ms ease-out;
+  }
+
+  .sign-up-submit-button:hover {
+    background-color: #d4d4d4;
+  }
+
+  .sign-up-card-inner-title {
+    margin-bottom: 19px;
+    font-size: 18px;
+  }
+
+  .sign-up-text-field {
+    width: 100%;
+  }
+
+  .total-dollar-amount-sign-up {
+    width: 100%;
+  }
+
+  .account-signup-page-title {
+    margin-bottom: 26px;
+  }
+
+  .billing-frequency-button-card {
+    width: 100%;
+  }
+
+  .plan-description-title {
+    font-size: 23px;
+  }
+
+  .plan-description-bullet-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .sign-in-container {
+    max-width: 270px;
+  }
+
+  .section-11 {
+    padding-top: 98px;
+    padding-bottom: 121px;
+  }
+
+  .sign-in-card {
+    margin-top: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  .sign-in-title {
+    display: block;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  .text-block-40 {
+    display: inline-block;
+    padding-top: 2px;
+    float: none;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .link-block-14 {
+    display: block;
+    float: none;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .sign-in-text-field {
+    font-size: 17px;
+  }
+
+  .submit-your-film-title {
+    font-size: 29px;
+  }
+
+  .text-block-42 {
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+
+  .container-5 {
+    max-width: 270px;
+  }
+
+  .grid-21 {
+    margin-top: 40px;
+  }
+
+  .submission-steps-card {
+    width: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .icon-6 {
+    color: #333e51;
+  }
+
+  .brand-2 {
+    display: block;
+  }
+
+  .menu-button-3 {
+    display: none;
+  }
+
+  .heading-6 {
+    display: inline-block;
+    max-width: 320px;
+    margin-top: 0px;
+    margin-bottom: 23px;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+  }
+
+  .heading-7 {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 23px;
+    font-family: 'Brandon bld', sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+  }
+
+  .image-43 {
+    width: 83%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 3px;
+  }
+
+  .image-44 {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    margin-top: 3px;
+  }
+
+  .brand-3 {
+    display: block;
+  }
+
+  .success-message {
+    margin-top: 41px;
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  .div-block-65 {
+    float: right;
+    background-color: #1190b1;
+    text-align: center;
+  }
+
+  .image-45 {
+    display: none;
+    height: auto;
+    margin-top: 271px;
+    text-align: center;
+  }
+
+  .tabs-content {
+    height: 520px;
+  }
+
+  .div-block-66 {
+    background-color: #f8d45a;
+  }
+
+  .image-46 {
+    display: none;
+  }
+
+  .div-block-67 {
+    text-align: center;
+  }
+
+  .image-47 {
+    display: none;
+    width: 380px;
+    height: auto;
+    margin-top: 248px;
+  }
+
+  .image-48 {
+    display: block;
+    width: 115%;
+    height: auto;
+    max-width: none;
+    margin-top: -77px;
+  }
+
+  .image-49 {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin-top: 150px;
+  }
+
+  .image-50 {
+    display: block;
+    width: 120%;
+    max-width: none;
+    margin-left: 0px;
+  }
+
+  .grid-22 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: end;
+    -webkit-align-items: end;
+    -ms-flex-align: end;
+    align-items: end;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-23 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    -webkit-box-align: end;
+    -webkit-align-items: end;
+    -ms-flex-align: end;
+    align-items: end;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-24 {
+    display: -ms-grid;
+    display: grid;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+}
+
+#w-node-_4f929d36-bc8b-a59f-5813-df168eede505-aa9849fb {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
+}
+
+#w-node-ae8c1814-0d41-231c-8ee6-86a765efe3ee-aa9849fb {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
+}
+
+#w-node-_67a03c15-2382-ff82-50d5-804838ccba26-aa9849fb {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-a70104d7-a716-68ce-90a1-ef6ffb6b3c42-aa9849fb {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-a70104d7-a716-68ce-90a1-ef6ffb6b3c58-aa9849fb {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-a70104d7-a716-68ce-90a1-ef6ffb6b3c70-aa9849fb {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-a70104d7-a716-68ce-90a1-ef6ffb6b3c88-aa9849fb {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-a70104d7-a716-68ce-90a1-ef6ffb6b3c9e-aa9849fb {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-a70104d7-a716-68ce-90a1-ef6ffb6b3cb4-aa9849fb {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_7ca8e957-41b8-21a6-be66-e7f1494548a6-494548a4 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_7ca8e957-41b8-21a6-be66-e7f1494548ec-494548a4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_7ca8e957-41b8-21a6-be66-e7f1494548f0-494548a4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_7ca8e957-41b8-21a6-be66-e7f1494548f3-494548a4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
+#distributor-div-block.w-node-fb576207-3e6b-c3d9-725d-24a2883a9075-ee9849ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#filmmaker-div-block.w-node-_63599ab1-c3d7-1a0d-4d0e-9d18383b2384-ee9849ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#audience-div-block.w-node-dd6150bb-0d68-de08-ac87-43dfde75b9ee-ee9849ff {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_39ef41b0-4782-652a-91cf-f1b15410f35f-10984a00 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_39ef41b0-4782-652a-91cf-f1b15410f361-10984a00 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_39ef41b0-4782-652a-91cf-f1b15410f365-10984a00 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_8d375140-f203-171b-4be0-798ac7fc12e9-10984a00 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_8d375140-f203-171b-4be0-798ac7fc12eb-10984a00 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_8d375140-f203-171b-4be0-798ac7fc12ef-10984a00 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_6c023909-a5a9-50b5-0149-8fd080c41a8b-10984a00 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_6c023909-a5a9-50b5-0149-8fd080c41a8d-10984a00 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_6c023909-a5a9-50b5-0149-8fd080c41a91-10984a00 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_9c9baa08-56e0-2fbf-4e89-7ccf9330d521-10984a00 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_3fe0d1fa-de4f-9d45-4efe-32ad0d279ec3-10984a00 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_603e189f-c4b8-9b34-9b39-dc67d7e02670-10984a00 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-c06e4f9b-2316-e59d-aaaf-1859c30aba2d-10984a00 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-abb58823-852f-36ea-aa39-ed89cac8a110-ebadf4bd {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_27249f44-ef37-c6d0-4ce7-6dbd20e76263-ebadf4bd {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-dce44328-c924-aa9f-af01-1d9b0f1e66a4-ebadf4bd {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-b2c74abc-4d26-b538-2bb9-42917a705cfe-ebadf4bd {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_9d54717d-d18f-68d2-c608-67a3740ad06d-ebadf4bd {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_1d33b02d-20e1-b72b-9fdf-613ec858a7a1-ebadf4bd {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#distributor-div-block.w-node-fb576207-3e6b-c3d9-725d-24a2883a9075-70984a02 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#filmmaker-div-block.w-node-_63599ab1-c3d7-1a0d-4d0e-9d18383b2384-70984a02 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#audience-div-block.w-node-dd6150bb-0d68-de08-ac87-43dfde75b9ee-70984a02 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-_4f929d36-bc8b-a59f-5813-df168eede505-aa9849fb {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-ae8c1814-0d41-231c-8ee6-86a765efe3ee-aa9849fb {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_67a03c15-2382-ff82-50d5-804838ccba26-aa9849fb {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-_67a03c15-2382-ff82-50d5-804838ccba26-aa9849fb {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_9c9baa08-56e0-2fbf-4e89-7ccf9330d521-10984a00 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_7ca8e957-41b8-21a6-be66-e7f1494548f3-494548a4 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-_8d375140-f203-171b-4be0-798ac7fc12eb-10984a00 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-_9c9baa08-56e0-2fbf-4e89-7ccf9330d521-10984a00 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}
+
+@font-face {
+  font-family: 'Brandon re';
+  src: url('../fonts/brandon_re.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Hoefler Text';
+  src: url('../fonts/hoefler_text.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon blk it';
+  src: url('../fonts/Brandon_blk_it.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon it';
+  src: url('../fonts/Brandon_light_it.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon blk';
+  src: url('../fonts/Brandon_blk.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon reg it';
+  src: url('../fonts/Brandon_reg_it.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon it';
+  src: url('../fonts/Brandon_thin_it.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon';
+  src: url('../fonts/Brandon_thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon med it';
+  src: url('../fonts/Brandon_med_it.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon med';
+  src: url('../fonts/Brandon_med.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon bld';
+  src: url('../fonts/Brandon_bld.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon bld it';
+  src: url('../fonts/Brandon_bld_it.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Brandon';
+  src: url('../fonts/Brandon_light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}

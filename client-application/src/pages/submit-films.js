@@ -1,0 +1,146 @@
+import React, {useEffect} from "react"
+import SignedOutNavbar from "../components/navbar/signed-out-navbar";
+
+export default function SubmitFilms() {
+    useEffect(()=> {
+	let signInNavbar = document.getElementById("sign-in-navbar-button");
+  let navbarImage = document.getElementById("festiv-logo-navbar");
+  window.addEventListener('scroll', function () {
+    let navbar = document.getElementById("navbar-home-transparent"); 
+    // Set starting position
+    if (window.pageYOffset >= 60) {
+      navbar.style.backgroundColor = "rgba(255,255,255,1)"; 
+    } else {
+      navbar.style.backgroundColor = "rgba(255,255,255,0)"; 
+    }});
+    })
+
+    return(
+        <div>
+  <div className="div-block-62"></div>
+  <SignedOutNavbar />
+  <div className="section-12">
+    <div className="container-5 w-container">
+      <h1 className="submit-your-film-title">Submit Your Film</h1>
+      <div className="text-block-42">If accepted, distributors and audiences will stream it worldwide.</div>
+      <a href="how-it-works.html" className="link-block-15 w-inline-block">
+        <div className="text-block-43">LEARN MORE &gt;</div>
+      </a>
+      <div className="w-layout-grid grid-21">
+        <div className="submission-steps-card">
+          <div className="steps-card-title">STEP 1</div>
+          <div className="text-block-45">Submit project</div>
+          <div className="text-block-46">5 minutes</div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAo6K1f2fu0rUKCqPjZ5dUPQlAOOuIF-R3t3_LdaZf0WBtPw/viewform" target="_blank" className="button-6 submit-now-button w-button">SUBMIT NOW</a>
+          <div className="powered-by-wrapper">
+            <div className="text-block-47">Powered by</div><img src="images/google-logo-dark.png" loading="lazy" width="45" alt="" className="image-42"/>
+          </div>
+        </div>
+        <div className="submission-steps-card">
+          <div className="steps-card-title">STEP 2</div>
+          <div className="text-block-45">Pay submission fee</div>
+          <div className="text-block-46">$180</div>
+          <a href="/select-film-submission" className="button-6 submit-now-button w-button">PAY NOW</a>
+          <div className="powered-by-wrapper">
+            <div className="text-block-47">Powered by</div><img src="images/stripe-dark-logo.png" loading="lazy" width="35" alt="" className="image-42"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="footer">
+    <div className="w-layout-grid grid-6">
+      <div id="w-node-e7f1494548a6-494548a4">
+        <div className="footer-col-text-title">Company</div>
+        <a href="about-us.html" className="link-block w-inline-block">
+          <div className="text-block-6">About Us</div>
+        </a>
+        <a href="mailto:info@festivmedia.com?subject=Inquiry%20About%20Festiv" className="link-block w-inline-block">
+          <div className="text-block-6">Contact Us</div>
+        </a>
+      </div>
+      <div>
+        <div className="footer-col-text-title">Platform</div>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Account Agreement</div>
+        </a>
+        <a href="privacy-policy.html" target="_blank" className="link-block w-inline-block">
+          <div className="text-block-6">Privacy Policy</div>
+        </a>
+        <a href="terms-of-use.html" target="_blank" className="link-block w-inline-block">
+          <div className="text-block-6">Terms Of Service</div>
+        </a>
+        <a href="festiv-video-service.html" target="_blank" className="link-block w-inline-block">
+          <div className="text-block-6">Video Services</div>
+        </a>
+      </div>
+      <div>
+        <div className="footer-col-text-title">Submissions</div>
+        <a href="how-it-works.html" className="link-block w-inline-block">
+          <div className="text-block-6">How It Works</div>
+        </a>
+        <a id="submit-films-footer-link" href="submit-films.html" aria-current="page" className="link-block w-inline-block w--current">
+          <div className="text-block-6">Submit Your Film Here</div>
+        </a>
+        <a href="film-submission-guidelines.html" target="_blank" className="link-block w-inline-block">
+          <div className="text-block-6">Film Submission Guidelines</div>
+        </a>
+        <a href="filmmaker-revenue-participation.html" target="_blank" className="link-block w-inline-block">
+          <div className="text-block-6">Filmmaker Revenue Participation</div>
+        </a>
+      </div>
+      <div>
+        <div className="footer-col-text-title">Genres</div>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Action</div>
+        </a>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Drama</div>
+        </a>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Comedy</div>
+        </a>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Family/Kids</div>
+        </a>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Horror/Thriller</div>
+        </a>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Science Fiction</div>
+        </a>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Documentary</div>
+        </a>
+      </div>
+      <div>
+        <div className="footer-col-text-title">Promotions</div>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Download Our App</div>
+        </a>
+        <a href="#" className="link-block w-inline-block">
+          <div className="text-block-6">Advertise With Us</div>
+        </a>
+      </div>
+    </div>
+    <div className="w-layout-grid grid-7">
+      <div id="w-node-e7f1494548ec-494548a4">
+        <a href="index.html" className="w-inline-block"><img src="images/festiv-logo-black.png" width="24" alt="" className="image-2"/>
+          <div className="text-block-8">FESTIV</div>
+        </a>
+      </div>
+      <div id="w-node-e7f1494548f0-494548a4">
+        <div className="text-block-7">© 2020 Next Wave Media Partners, LLC</div>
+      </div>
+      <div id="w-node-e7f1494548f3-494548a4" className="div-block-41">
+        <a href="https://www.instagram.com/festivmedia/?hl=en" className="social-link w-inline-block"><img src="images/instagram-icon.png" alt=""/></a>
+        <a href="https://www.facebook.com/Festiv-101470541497280" className="social-link w-inline-block"><img src="images/facebook-icon.png" alt="" className="image-30"/></a>
+        <a href="https://twitter.com/festiv12" className="social-link w-inline-block"><img src="images/twitter-icon.png" alt=""/></a>
+        <a href="mailto:info@festivmedia.com?subject=Inquiry%20About%20Festiv" className="social-link w-inline-block"><img src="images/mail-icon.png" alt=""/></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+    )
+} 
